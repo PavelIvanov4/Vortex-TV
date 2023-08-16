@@ -1,0 +1,101 @@
+body {
+	margin : 0;
+	background : black;
+}
+
+header {
+	display : flex;
+	justify-content : space-between;
+}
+
+#upper {
+	background : #202020;
+	color : #AEE6FF;
+	padding : 15px;
+	width : max-content;
+	font : 40px Nunito Sans;
+	cursor : default;
+}
+
+#about {
+	background : #202020;
+	color : beige;
+	padding : 15px;
+	margin : 0;
+	width : max-content;
+	font : 40px Bebas Neue;
+	cursor : default;
+	transition : 0.7s;
+}
+
+#logo-span {
+	font-family : Wingdings;
+}
+
+#generator {
+	background : linear-gradient(160deg, #407575, #254040, #002020);
+	width : 700px;
+	height : 400px;
+	margin-top : 70px;
+	margin-left : auto;
+	margin-right : auto;
+	border-radius : 40px;
+}
+
+#randomize, #go, #details {
+	display : inline-block;
+	background : #202020;
+	color : beige;
+	border : 1px solid beige;
+	margin-top : 60px;
+	margin-left : 40px;
+	font : 30px Bebas Neue;
+	min-width : 160px;
+	text-align : center;
+	padding : 12px 7px 12px 7px;
+	cursor : pointer;
+	transition : 0.5s;
+}
+
+#go {
+	text-decoration : none;
+	color : beige;
+	display : inline-block;
+}
+
+#info {
+	background : #202020;
+	border : 1px solid beige;
+	border-radius : 40px;
+	width : 600px;
+	height : 130px;
+	margin-left : auto;
+	margin-right : auto;
+	padding : 20px;
+	font : 24px Nunito Sans;
+	color : beige;
+	margin-top : 50px;
+}
+
+.none {
+	display : none;
+}
+
+.visible {
+	display : inline;
+}
+
+#randomize:hover, #go:hover, #details:hover, #about:hover {
+	background : beige;
+	color : black;
+}
+
+@font-face {
+	src : url('bebas-neue.ttf');
+	font-family : Bebas Neue;
+}
+
+@font-face {
+	src : url('nunito-sans.ttf');
+	font-family : Nunito Sans;
+}
