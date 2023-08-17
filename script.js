@@ -4,9 +4,35 @@ let details = document.getElementById('details');
 let info = document.getElementById('info');
 let info2 = document.getElementById('info2');
 let count = 0;
+let bar = 0;
+
+const about = document.getElementById('about');
 
 details.addEventListener('click', () => {
 	info2.classList.toggle('visible');
+})
+
+about.addEventListener('click', () => {
+	switch (bar) {
+    case 0:
+	randomize.style.display = 'none';
+	go.style.display = 'none';
+	details.style.display = 'none';
+	info.style.display = 'none';
+	info2.style.display = 'none';
+	about_text.classList.add('visible2');
+	bar ++;
+	break;
+    case 1:
+	randomize.style.display = 'inline-block';
+	go.style.display = 'inline-block';
+	details.style.display = 'inline-block';
+	info.style.display = 'block';
+	info2.style.display = 'block';
+	about_text.classList.remove('visible2');
+	bar --;
+	break;	
+	}
 })
 
 randomize.addEventListener('click', () => {
