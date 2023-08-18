@@ -131,6 +131,9 @@ header {
 		height : 150px;
 		border-radius : 0;
 		border-color : slateGray;
+		border-left : none;
+		border-right : none;
+		border-bottom : none;
 		box-sizing : border-box;
 	}
 	
