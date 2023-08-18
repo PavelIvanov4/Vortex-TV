@@ -31,7 +31,7 @@ header {
 #about_text {
 	font : 28px Nunito Sans;
 	color : beige;
-	padding : 30px;
+	padding : 10px 30px 30px 30px;
 	text-align : justify;
 }
 
@@ -83,6 +83,9 @@ header {
 	color : beige;
 	margin-top : 50px;
 }
+#buttons {
+	display : inline-block;
+}
 
 .none {
 	display : none;
@@ -124,15 +127,28 @@ header {
 	}
 	
 	#info {
-		width : 90%;
-		height : 80px;
+		width : 100%;
+		height : 150px;
+		border-radius : 0;
+		border-color : slateGray;
 	}
 	
-	#randomize, #go, #details {
+	#details {
+		margin : auto;
+		display : block;
+		width : 72%;
+		font-size : 30px;
+		min-width : 120px;
+		border-color : slateGray;
+	}
+	
+	#randomize, #go {
 		margin-top : 50px;
+		margin-bottom : 20px;
 		margin-left : 0px;
 		font-size : 30px;
 		min-width : 120px;
+		border-color : slateGray;
 	}
 	
 	#buttons {
@@ -140,8 +156,12 @@ header {
 		justify-content : space-evenly;
 	}
 	
-	#info {
-		border-radius : 0;
-		width : 100%;
+	#about_text {
+		padding : 30px;
+	}
+	
+	#about:hover {
+		background : #202020;
+		color : beige;
 	}
 }
