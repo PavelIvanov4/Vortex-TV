@@ -355,12 +355,12 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Expedia. Yosemite National Park Travel Guide';
 	break;	
 	case 80:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=0GZSfBuhf6Y');
-	info2.innerHTML = 'Touropia. 25 Best Places To Visit In Europe';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=B2utb9iav2o');
+	info2.innerHTML = 'Student room tour at Aalto Campus';
 	break;	
 	case 81:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=b7FNvq11CEw');
-	info2.innerHTML = 'Touropia. 25 Best Places To Visit In The USA';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=okZmnB3Hhb4');
+	info2.innerHTML = 'A new Bose–Einstein condensate created at Aalto University';
 	break;	
 	case 82:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=kvpHGyCOEwo');
