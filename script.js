@@ -38,205 +38,205 @@ about.addEventListener('click', () => {
 randomize.addEventListener('click', () => {
 	count = Math.floor(Math.random() * 220 + 1);
 	switch (count) {
-    case 1:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=3Iif71ZUoS0');
-	info2.innerHTML = 'Koodataan Nettisivut';
-	break;
-	case 2:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=C8jLj9KZwzg');
-	info2.innerHTML = 'Sisustussuunnittelija Laura Ratian kotona';
-	break;
-	case 3:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=pMHO6i5LhKY');
-	info2.innerHTML = 'Hylätty tehdas *ASBESTIVAARA*';
-	break;
-	case 4:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ayN5Ki3FWEI');
-	info2.innerHTML = 'Hylätty kerrostalo – 11 KERROSTA!';
-	break;
-	case 5:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Mux4N66aiSs');
-	info2.innerHTML = 'VÄRJÄÄ HIUKSET KASVEILLA | Emma ja Milla testaa';
-	break;
-    case 6:
-    go.setAttribute('href', 'https://www.youtube.com/watch?v=Ao6Il1tVTF8');
-	info2.innerHTML = 'HYI MIKÄ HAJU | KOKKAA KUVASTA';
-	break;
-	case 7:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=YI8FxmjBc1Q');
-	info2.innerHTML = 'ONKS NOLOO VAIHTAA PUKEUTUMISTYYLIÄ?';
-	break;
-	case 8:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=YZrH-LkruMU');
-	info2.innerHTML = 'Testataan vanhoja skeittitemppuja';
-	break;
-	case 9:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ALuJDpIhp5U');
-	info2.innerHTML = 'E18-moottoritie - yhdistäjä, välittäjä, ylittäjä';
-	break;	
-	case 10:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=egOOyiMmWwg');
-	info2.innerHTML = 'Näin tehdään taskuparkkeeraus - Nettiauto';
-	break;	
-	case 11:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Z_qtFEXHcOg');
-	info2.innerHTML = 'Suojatiesäännöt';
-	break;	
-	case 12:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=g6tMPwVGfYA');
-	info2.innerHTML = 'Kuka väistää?';
-	break;	
-	case 13:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=0vxf_qs3orc');
-	info2.innerHTML = 'Viisi Android vinkkiä - Näin käytät puhelintasi yksinkertaisemmin';
-	break;	
-	case 14:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=4GKzDOAtmdc');
-	info2.innerHTML = 'Halpa vs kallis puhelin - käytännön ero';
-	break;	
-	case 15:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Q709z5ylAbA');
-	info2.innerHTML = 'JÄÄKAAPIN ESITTELY';
-	break;	
-	case 16:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=0XCU20PQahI');
-	info2.innerHTML = 'VAIN LUKIO JUTUT';
-	break;	
-	case 17:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=2oZS4RyltA8');
-	info2.innerHTML = 'Opiskele tehokkaammin | Parhaat opiskelutekniikat';
-	break;	
-	case 18:
+	case 1:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=lQS8U3Xpw7k');
 	info2.innerHTML = '5 Uskomatonta paikkaa maailmassa';
-	break;
-	case 19:
+	break;	
+	case 2:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=lEP-qi0hzkg');
 	info2.innerHTML = '5 Uskomatonta paikkaa maailmassa #2';
 	break;	
-	case 20:
+	case 3:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=m3CgnX969nY');
 	info2.innerHTML = '5 Hämmästyttävää UFO-videota';
-	break;
-	case 21:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=bU63nbVKUgM');
-	info2.innerHTML = 'MITÄ JOS MAAPALLO ONKIN LITTEÄ?';
-	break;
-	case 22:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=IlQJuUOWr54');
-	info2.innerHTML = 'Miten saada koulumotivaatio';
-	break;
-	case 23:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=QAw72pvQEBA');
-	info2.innerHTML = 'Lintsillä Tumen kaa!';
-	break;
-	case 24:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=oLAyDKhD7ko');
-	info2.innerHTML = 'Poliisikoulussa';
-	break;
-	case 25:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=2Z93zjN0fj8');
-	info2.innerHTML = 'MITÄ TEEN KUN POIKAYSTÄVÄNI EI OLE KOTONA?';
-	break;
-	case 26:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=_ylE61SFaW8');
-	info2.innerHTML = 'Vegaaninen juustokakku – Voiko maku olla näin TAIVAALLINEN?';
-	break;
-	case 27:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=mHp2_vhjR0Q');
-	info2.innerHTML = 'NÄITÄ KAURAKEKSEJÄ SÖISI VAIKKA JOKA PÄIVÄ - Maapähkinävoi-kaurakeksit!';
-	break;
-	case 28:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=SeejsBdXTz4');
-	info2.innerHTML = '5 syksyistä asua kouluun! 🍂';
-	break;
-	case 29:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=KunvJQp-sic');
-	info2.innerHTML = 'Leikkasin otsatukan ja värjäsin 🍑 väriset hiukset!';
-	break;
-	case 30:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=WX6aL8Molok');
-	info2.innerHTML = 'YRITIN VÄRJÄTÄ PINKIT HIUKSET 💕😱 (fail?) | Nelli Orell ♡';
 	break;	
-	case 31:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=tQLfP0FzZ_U');
-	info2.innerHTML = 'OMPELIN ITSELLENI OUTFITIN | Nelli Orell ♡';
-	break;
-	case 32:
+	case 4:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=49EfGcYZdX8');
+	info2.innerHTML = 'Atlantiksen kadonnut kaupunki on löydetty?';
+	break;	
+	case 5:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=TzZJZ1mJOAM');
+	info2.innerHTML = 'Oudot urheilulajit!';
+	break;	
+	case 6:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=Mux4N66aiSs');
+	info2.innerHTML = 'Värjää hiukset kasveilla | Emma ja Milla testaa';
+	break;	
+	case 7:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=_u0U0AhplRY');
+	info2.innerHTML = 'JASMIN maalaa GRAFFITIN';
+	break;	
+	case 8:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=wBQCWURsjU0');
+	info2.innerHTML = 'Pelasin golfia elämäni ensimmäistä kertaa!';
+	break;	
+	case 9:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=80xJEcsnqqs');
+	info2.innerHTML = 'Korjaan huonot slimet! ep. 7';
+	break;		
+	case 10:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=7LnRcK2TBWM');
+	info2.innerHTML = '10 erilaista opiskelijaa!';
+	break;	
+	case 11:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=NM5k3Rg1pVM');
+	info2.innerHTML = 'Synttäri My Day #17! 😱 // Vuokrasin Sviitin!';
+	break;	
+	case 12:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=25Q4sLQ16v0');
 	info2.innerHTML = 'STYLE SWAP w/pinkkupinsku';
-	break;
+	break;	
+	case 13:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=-jE_YN7-KlA');
+	info2.innerHTML = 'SISUSTUSKORNERI: Kodin esittely';
+	break;	
+	case 14:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=obMzn6uXOow');
+	info2.innerHTML = 'Näin Teet Smoothie Bowlin';
+	break;	
+	case 15:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=N8-1KiqoiV4');
+	info2.innerHTML = 'Mun Päivä Koulussa (Lakko)';
+	break;	
+	case 16:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=Mu6PrVcY6z4');
+	info2.innerHTML = 'Markku Alén & Lamborghini Urus';
+	break;	
+	case 17:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=ab8DeC0s1fY');
+	info2.innerHTML = 'Markku Alén & Polaris RMK 800';
+	break;	
+	case 18:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=JUGF3M6dCN0');
+	info2.innerHTML = 'Tasa-arvoisissa risteyksissä — Nettiauto';
+	break;	
+	case 19:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=ORw4ItK_RyY');
+	info2.innerHTML = 'SAFKAA: Lapsiperheen viikon ruoat 😋';
+	break;		
+	case 20:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=mHp2_vhjR0Q');
+	info2.innerHTML = 'Maapähkinävoi-kaurakeksit!';
+	break;	
+	case 21:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=YZrH-LkruMU');
+	info2.innerHTML = 'Testataan vanhoja skeittitemppuja';
+	break;	
+	case 22:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=HAJFfaiGg4c');
+	info2.innerHTML = 'Geneven autonäyttelyn uutuudet (Teknavi 2017)';
+	break;	
+	case 23:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=wqasPNZd3uU');
+	info2.innerHTML = 'Hyvän mielen metsäkävely – Kesä';
+	break;	
+	case 24:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=-spzCqcQWec');
+	info2.innerHTML = 'Syysseikkailu 2018 Norjassa ja Ruotsissa';
+	break;	
+	case 25:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=0qSQ3aV2ucU');
+	info2.innerHTML = 'Miksi tämä vesipuisto on rakennettu VUOREN huipulle?';
+	break;	
+	case 26:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=B5emNVG3t68');
+	info2.innerHTML = 'Todella hyvä kuntoinenko autiotalo?';
+	break;	
+	case 27:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=ge5IYDcwXb0');
+	info2.innerHTML = 'Löydettiin HYLÄTTY TEHDAS keskeltä KAUPUNKIA!';
+	break;	
+	case 28:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=r8LOlxaBCik');
+	info2.innerHTML = 'Huuhkajien historiallinen matka EM-kisoihin | Finland\'s road to EURO 2021';
+	break;	
+	case 29:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=jtSUVzARc5w');
+	info2.innerHTML = 'U20 MM-puolivälierä 2019: Kanada - Suomi | Maalikooste';
+	break;		
+	case 30:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=OdFPOvkpsok');
+	info2.innerHTML = 'Silja Line goes Tubekoulu – Kapteenin tubevideo';
+	break;	
+	case 31:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=P7o1HH-1K70');
+	info2.innerHTML = 'Vauva Opettelee Konttaamaan 👶🏻🤙🏻 — Perheilta';
+	break;	
+	case 32:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=d1y-JX8KPeE');
+	info2.innerHTML = 'Taaperon Ensimmäinen Hiustenleikkaus – PERHEVLOGI';
+	break;	
 	case 33:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=gOImN_s5ORY');
-	info2.innerHTML = 'Tee itse tuoksusaippuaa';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=xC46ezX_Maw');
+	info2.innerHTML = 'Himmeli | DIY | Tee se itse';
+	break;	
 	case 34:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=N2pcNMX9Yeo');
-	info2.innerHTML = 'Suomalaisia pienoisjunia Märklin radalla!';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=7h2FupOUJmg');
+	info2.innerHTML = 'Ohje: Joutsen origami';
+	break;	
 	case 35:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=dyJ_6xY6Cqk');
-	info2.innerHTML = 'Käytöstä poistetun junaradan varrella vankivaunu sekä lumiaura';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=CcAJrDl83n4');
+	info2.innerHTML = 'Ohje: Modulaarinen kuutio';
+	break;	
 	case 36:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=DbCpcpmikdU');
-	info2.innerHTML = 'Ahvenen kalastusta Hossan kalavesillä 2019 | Erämaiden Kulkijat';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=EXWbgToo1X4');
+	info2.innerHTML = 'Welcome to the Lappeenranta campus – LUT University';
+	break;	
 	case 37:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=mzOFSsGI2WY');
 	info2.innerHTML = 'Kampuselämää Jyväskylän yliopistossa - University campus life at JYU';
-	break;
-	case 38:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=hjDeKywkZ6E');
-	info2.innerHTML = 'MISSÄ ASUIN TAMPEREELLA?';
-	break;
-	case 39:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=sKogCtST7VE');
-	info2.innerHTML = 'TUNNETKO MUT?';
-	break;
-	case 40:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=6Zhy3IJ-cjk');
-	info2.innerHTML = 'VANHEMMAT SOMESSA';
 	break;	
+	case 38:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=eOBi9kaeQ3A');
+	info2.innerHTML = 'Mistä kesätöitä löytää? | Näin onnistut työnhaussa';
+	break;	
+	case 39:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=OfJYDiXoLnk');
+	info2.innerHTML = 'Tramppapuistossa ja vegemessuilla';
+	break;		
+	case 40:
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=oLAyDKhD7ko');
+	info2.innerHTML = 'Poliisikoulussa';
+	break;		
 	case 41:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=R34bkRJFCSw');
-	info2.innerHTML = 'Veikka FLEMMING - Annika LUNDSTRÖM';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=_QCKpbFllDc');
+	info2.innerHTML = 'Viisi Android vinkkiä - Näin käytät puhelintasi yksinkertaisemmin';
+	break;	
 	case 42:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=0ctNB6oYLks');
-	info2.innerHTML = 'Paul JOKINEN - Juha AKKANEN';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=ADLmB-9Goiw');
+	info2.innerHTML = 'Super clean Lian-Li O11 RGB build';
+	break;	
 	case 43:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=X7W2fnrPyOw');
-	info2.innerHTML = 'Golfin aloittaminen.';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=ufWsjxB6bqM');
+	info2.innerHTML = 'IT-tukihenkilöksi I REDU';
+	break;	
 	case 44:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=-spzCqcQWec');
-	info2.innerHTML = 'Syysseikkailu 2018 Norjassa ja Ruotsissa';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=3Iif71ZUoS0');
+	info2.innerHTML = 'Koodataan Nettisivut | Miskan Ohjelmointinurkka';
+	break;	
 	case 45:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=iPKjDtQ8Evk');
-	info2.innerHTML = 'Syysvaellus Kilpisjärvi - Pältsa - Barras 2013';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=XRvb5kb9Lx4');
+	info2.innerHTML = 'Miten julkaista omat verkkosivut';
+	break;	
 	case 46:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=QIXgscBt-j8');
-	info2.innerHTML = 'Käymäjärven riimukivi ja Suomi - Keltti yhteys';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=4bV4hseiFpk');
+	info2.innerHTML = 'Millaista on raitiovaununkuljettajan arki?';
+	break;	
 	case 47:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=97iTfK1HROM');
-	info2.innerHTML = 'Tähtivesi - Onko vesi peräisin Auringosta?';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=N2pcNMX9Yeo');
+	info2.innerHTML = 'Suomalaisia pienoisjunia Märklin radalla!';
+	break;	
 	case 48:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=BF5-sEnez-Y');
-	info2.innerHTML = 'KODIN ESITTELY';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=4o8Sa2z_Rkg');
+	info2.innerHTML = 'Turun tuomiokirkko 1400-luvulla';
+	break;	
 	case 49:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=GtIkw536_OM');
-	info2.innerHTML = 'TAAPERON PARAS PÄIVÄ - PERHEVLOGI';
-	break;
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=fAcdiueB27o');
+	info2.innerHTML = 'Punavuori ennen ja nyt';
+	break;		
 	case 50:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=I5vvYlXFRuQ');
-	info2.innerHTML = 'testissä kaupan slimet | Saara Daniela';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=ILoQry0YNzc');
+	info2.innerHTML = 'Päivä Helsingin Liikenteessä';
 	break;	
 	case 51:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=iEEgC_L4xCU');
@@ -323,12 +323,12 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Helsinki | Real 8K';
 	break;	
 	case 72:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=WbPiz9HMDH8');
-	info2.innerHTML = 'Turku, Finland by DRONE: Autumn Colors in 2019 - 4K UHD';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=4J4xLwgX23c');
+	info2.innerHTML = 'Weekend In The Woods Vlog';
 	break;	
 	case 73:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=-a8Sy805C6w');
-	info2.innerHTML = 'FINLAND From Air Oulu & Nallikari ilmasta 4K drone video';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=xrG7POGqrR8');
+	info2.innerHTML = 'Make Your Houseplants Thrive';
 	break;	
 	case 74:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=Fj4v_OtNsuU');
@@ -347,8 +347,8 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Expedia. Barcelona Travel Guide';
 	break;	
 	case 78:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=k7ZqiSKIB9g');
-	info2.innerHTML = 'Expedia. Glasgow Travel Guide';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=TszSjE_kQwg');
+	info2.innerHTML = 'Evolution of Television 1920-2020 (updated)';
 	break;	
 	case 79:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=9fJEFi3ccwI');
@@ -363,16 +363,16 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'A new Bose–Einstein condensate created at Aalto University';
 	break;	
 	case 82:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=kvpHGyCOEwo');
-	info2.innerHTML = 'Wroclaw 4K Drone';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=SSo_EIwHSd4');
+	info2.innerHTML = 'Blockchain Simply Explained';
 	break;	
 	case 83:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=DxUsrnd3VWY');
 	info2.innerHTML = 'Boston 4K Drone';
 	break;	
 	case 84:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=kXfUiRgHZF8');
-	info2.innerHTML = 'London 4K Drone';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=tqQnBzFAt8I');
+	info2.innerHTML = 'The Strangest Towns In The World';
 	break;	
 	case 85:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=FCPdIvXo2rU');
@@ -415,8 +415,8 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Top 5 Unusual Buildings';
 	break;	
 	case 95:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=m4KRsr-g6lY');
-	info2.innerHTML = '10 Most Isolated Towns On Earth';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=6PxMBgbwuFo');
+	info2.innerHTML = 'Top 100 Car Brands | Largest Car Company in the world - 2022';
 	break;	
 	case 96:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=qO1brxn1rNs');
@@ -427,16 +427,16 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Top 10 Interesting Facts About Jupiter';
 	break;	
 	case 98:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=nFaMwXyIHdw');
-	info2.innerHTML = 'Insider. World\'s Best Airports';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=j_Y2Gwaj7Gs');
+	info2.innerHTML = 'Tour Red Hat\'s New Boston Office';
 	break;	
 	case 99:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=BG3eAR1ngeg');
 	info2.innerHTML = 'Insider. Massive Bookstore Rarities';
 	break;	
 	case 100:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=2jfHmH2yJvU');
-	info2.innerHTML = 'Insider. Home Revamp Techniques';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=WmiCv9rNWqw');
+	info2.innerHTML = 'The Fake Town Created By Google';
 	break;	
 	case 101:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=cOW7DUrphoQ');
@@ -447,8 +447,8 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Insider. Volcanic Lava Bread In Iceland';
 	break;	
 	case 103:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=t_QTjgbA8cI');
-	info2.innerHTML = 'Insider. Wooden Transforming Bookshelf';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=nTpR1QayngU');
+	info2.innerHTML = 'Planet Unknown (2016) Short Film';
 	break;	
 	case 104:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=TOSFmKy2fKA');
@@ -463,28 +463,28 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Cologne Plane Spotting';
 	break;	
 	case 107:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=jJNeBc4n_48');
-	info2.innerHTML = 'Helsinki Plane Spotting';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=PBbZ_0-tUH0');
+	info2.innerHTML = 'Best of URBAN Skating - POWERSLIDE Inline Skates';
 	break;		
 	case 108:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=i-qIOC7wQEQ');
 	info2.innerHTML = 'Boston & NYC Subway Competition';
 	break;	
 	case 109:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=eHmyb2ByP6Y');
-	info2.innerHTML = 'Berlin Trainspotting';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=PTH6boMUk8s');
+	info2.innerHTML = 'Top Gear – Chris Harris vs. Honda Civic Type R';
 	break;	
 	case 110:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=U75MZwtDCXA');
 	info2.innerHTML = 'Container Ship Cargo Operations';
 	break;	
 	case 111:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=eqnfjRb9Li8');
-	info2.innerHTML = 'Toronto University Student Residence';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=_Nq4Z5i7lcs');
+	info2.innerHTML = 'Stanford University Campus Tour';
 	break;	
 	case 112:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Eqz8FJO7kqE');
-	info2.innerHTML = 'Hermes Window Design Project';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=BV1vQBxi44E');
+	info2.innerHTML = 'Top ten UEFA EURO 2016 goals';
 	break;	
 	case 113:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=M6PTJptKZhI');
@@ -503,8 +503,8 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'To Scale. The Solar System';
 	break;	
 	case 117:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=E0m320PDEVI');
-	info2.innerHTML = 'NYC Famous Architecture';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=DDmz9iqyeSU');
+	info2.innerHTML = 'Sailing a Superboat Across the Atlantic';
 	break;	
 	case 118:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=SZ_sQaWn0Uo');
@@ -515,8 +515,8 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Behind The Scenes Of Our Planet. Narwhal';
 	break;	
 	case 120:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=XY3yndaXsUU');
-	info2.innerHTML = 'Urbanism, Architecture & Biodiversity';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=RtU8nBnpFVE');
+	info2.innerHTML = 'Wings Animated Movie';
 	break;	
 	case 121:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=mwzExNYs12Y');
@@ -531,12 +531,12 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Amazing Science Toys/Gadgets/Inventions (9)';
 	break;		
 	case 124:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=_mdu3ghaNXQ');
-	info2.innerHTML = 'Top 4 NYC Art Museums';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=5Rqj6rfbMIY');
+	info2.innerHTML = 'Top Gear – Chris Harris Drives The 400bhp Lotus Emira';
 	break;	
 	case 125:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=0_35146K1rg');
-	info2.innerHTML = 'Aviation Design Innovation';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=Bcz39w07WIA');
+	info2.innerHTML = 'Colored Epoxy Resin Table';
 	break;	
 	case 126:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=enpkJE-7Dkc');
@@ -631,8 +631,8 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Pinterest Inspired Kitchen';
 	break;	
 	case 149:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=w2OvfHB-Xb4');
-	info2.innerHTML = 'DIY Summer Room Decor Ideas';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=Av07QiqmsoA');
+	info2.innerHTML = 'Lemonade Machine';
 	break;	
 	case 150:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=sBoVGqiSzr4');
@@ -667,8 +667,8 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Thomas Kruger & Brendan Kavanagh. Fast Boogie Woogie';
 	break;	
 	case 158:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=1prweT95Mo0');
-	info2.innerHTML = 'Yo-Yo Ma. Bach : Cello Suite No. 1';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=5apLdW0lL08');
+	info2.innerHTML = 'Frisco Percussion';
 	break;	
 	case 159:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=9TjUWnAK0cg');
@@ -847,8 +847,8 @@ randomize.addEventListener('click', () => {
 	info2.innerHTML = 'Maroon 5 – Sunday Morning';
 	break;	
 	case 203:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=jifUJrYPZQQ');
-	info2.innerHTML = 'Wednesday Dance (Tik Tok Speed Up)';
+	go.setAttribute('href', 'https://www.youtube.com/watch?v=iSEkI3Urmd4');
+	info2.innerHTML = 'Harry Potter Homecoming Assembly';
 	break;		
 	case 204:
 	go.setAttribute('href', 'https://www.youtube.com/watch?v=B7xai5u_tnk');
