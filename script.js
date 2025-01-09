@@ -1,3 +1,1207 @@
+const vortexData = [
+    {
+        "Name": "Figure Skating to the \"Yuri On Ice\" theme - Miu Suzaki and Ryuichi Kihara | Music Monday",
+        "Link": "https://www.youtube.com/watch?v=XN2H7tbu8E4"
+    },
+    {
+        "Name": "MESSI X RONALDO: Appreciate The Greatness",
+        "Link": "https://www.youtube.com/watch?v=YNcoLVgRktQ"
+    },
+    {
+        "Name": "The story of the UEFA Champions League anthem",
+        "Link": "https://www.youtube.com/watch?v=2d4KVnVuRDY"
+    },
+    {
+        "Name": "BAYERN 1-1p CHELSEA: #UCL 2012 FINAL FLASHBACK",
+        "Link": "https://www.youtube.com/watch?v=eOMqaQFFhk0"
+    },
+    {
+        "Name": "25 Tennis Shots SO GOOD the Opponent Had to Applaud 👏",
+        "Link": "https://www.youtube.com/watch?v=OXaEUUUJJ7s"
+    },
+    {
+        "Name": "Feel Good ATP Tennis Moments!",
+        "Link": "https://www.youtube.com/watch?v=uAado_NsDnY"
+    },
+    {
+        "Name": "Best Hands: 2019 Pro Bowl Skills Showdown | NFL Highlights",
+        "Link": "https://www.youtube.com/watch?v=EOKR7B_HmyI"
+    },
+    {
+        "Name": "Finland vs. Canada | Highlights | 2019 IIHF Ice Hockey World Championship",
+        "Link": "https://www.youtube.com/watch?v=eg4WO6-7tPw"
+    },
+    {
+        "Name": "Japan Skateboard Session with 15 Year Old World Champion",
+        "Link": "https://www.youtube.com/watch?v=8Y-q_WHub7I"
+    },
+    {
+        "Name": "Best of URBAN Skating - POWERSLIDE Inline Skates - Freeskate Freeride Compilation",
+        "Link": "https://www.youtube.com/watch?v=PBbZ_0-tUH0"
+    },
+    {
+        "Name": "Lamborghini Sesto Elemento at Imola | Top Gear | Series 20 | BBC",
+        "Link": "https://www.youtube.com/watch?v=zRT1hw_-0a8"
+    },
+    {
+        "Name": "Mercedes G63 AMG 6x6 Review | Top Gear | Series 21",
+        "Link": "https://www.youtube.com/watch?v=DrUVMdkb4_k"
+    },
+    {
+        "Name": "1980s BMW Convertibles | Top Gear | BBC",
+        "Link": "https://www.youtube.com/watch?v=wYaXw8TZEvs"
+    },
+    {
+        "Name": "Dare to Be Different in a Datsun 240Z",
+        "Link": "https://www.youtube.com/watch?v=EO2y_-vpolA"
+    },
+    {
+        "Name": "This Willys Jeep Has Always Been Out In The Open",
+        "Link": "https://www.youtube.com/watch?v=OYdaanmTcNc"
+    },
+    {
+        "Name": "Building The World's Most Beautiful Car | Carfection 4K",
+        "Link": "https://www.youtube.com/watch?v=DA6eOk4PS6Y"
+    },
+    {
+        "Name": "5ENNA; Honda NSX | 4K",
+        "Link": "https://www.youtube.com/watch?v=q5PPNZiu52w"
+    },
+    {
+        "Name": "Detailing a Midnight Purple III Fine Spec R34 GTR Vspec 2 | 4K",
+        "Link": "https://www.youtube.com/watch?v=8-oGC7Jpkd0"
+    },
+    {
+        "Name": "Tokyo Underground. | 4K",
+        "Link": "https://www.youtube.com/watch?v=0FcU9xT-qqA"
+    },
+    {
+        "Name": "RARE in Japan! Tokorozawa Classic Car Festival 2019",
+        "Link": "https://www.youtube.com/watch?v=BE9STm6ldoY"
+    },
+    {
+        "Name": "How I Make My Favorite Japanese Recipes",
+        "Link": "https://www.youtube.com/watch?v=T6GmeOnoZec"
+    },
+    {
+        "Name": "The Original Orange Chicken by Panda Express",
+        "Link": "https://www.youtube.com/watch?v=5Sa9nYKiYg0"
+    },
+    {
+        "Name": "How To Make Perfect Chocolate Chip Cookies",
+        "Link": "https://www.youtube.com/watch?v=rEdl2Uetpvo"
+    },
+    {
+        "Name": "Cooking for RAF Pilots | Gordon Ramsay",
+        "Link": "https://www.youtube.com/watch?v=5MdTtOGYKco"
+    },
+    {
+        "Name": "Quick & Easy Recipes With Gordon Ramsay",
+        "Link": "https://www.youtube.com/watch?v=mhDJNfV7hjk"
+    },
+    {
+        "Name": "How to Make Perfect Porridge - 5 Ways | Jamie Oliver",
+        "Link": "https://www.youtube.com/watch?v=ywkEGKXk2cQ"
+    },
+    {
+        "Name": "Papyrus - SNL",
+        "Link": "https://www.youtube.com/watch?v=jVhlJNJopOQ"
+    },
+    {
+        "Name": "Meet Cute - SNL",
+        "Link": "https://www.youtube.com/watch?v=PgfiXtvej7Q"
+    },
+    {
+        "Name": "Mad Lib Theater with Benedict Cumberbatch",
+        "Link": "https://www.youtube.com/watch?v=kM9Wuzj4k24"
+    },
+    {
+        "Name": "Dance Battle with the Stranger Things Kids",
+        "Link": "https://www.youtube.com/watch?v=BsjQqm60ZEI"
+    },
+    {
+        "Name": "Can Jamie conjure up four yeses? | Audition Week 2 | Britain's Got Talent 2015",
+        "Link": "https://www.youtube.com/watch?v=f0m9QtYWTIE"
+    },
+    {
+        "Name": "Prepare to be SPELLBOUND by Magus Utopia | Auditions | BGT 2018",
+        "Link": "https://www.youtube.com/watch?v=gxepM2uSW9g"
+    },
+    {
+        "Name": "The Coaches Perform 'Feeling Good' | The Voice UK 2018",
+        "Link": "https://www.youtube.com/watch?v=Enc80-YUuZc"
+    },
+    {
+        "Name": "Victoria Performs 'How Far I'll Go' | Blind Auditions | The Voice Kids UK 2020",
+        "Link": "https://www.youtube.com/watch?v=wpuFJ-4emDU"
+    },
+    {
+        "Name": "If Educational Videos Were Filmed Like Music Videos",
+        "Link": "https://www.youtube.com/watch?v=G025oxyWv0E"
+    },
+    {
+        "Name": "The artificial gravity lab",
+        "Link": "https://www.youtube.com/watch?v=bJ_seXo-Enc"
+    },
+    {
+        "Name": "Will YouTube Ever Run Out Of Video IDs?",
+        "Link": "https://www.youtube.com/watch?v=gocwRvLhDf8"
+    },
+    {
+        "Name": "I Built An Entire Room Made Completely Out of Mirrors!",
+        "Link": "https://www.youtube.com/watch?v=1rBafWR3b50"
+    },
+    {
+        "Name": "Hypnotic Ink Physics in 4K Slow Motion - The Slow Mo Guys",
+        "Link": "https://www.youtube.com/watch?v=gzkB574jivA"
+    },
+    {
+        "Name": "Spinning Water Galaxies - Interesting fluid physics - The Slow Mo Guys",
+        "Link": "https://www.youtube.com/watch?v=YAfmZKX24Zs"
+    },
+    {
+        "Name": "Fictional BUILDINGS Size COMPARISON | 3D [Real Scale] 🏠",
+        "Link": "https://www.youtube.com/watch?v=hjIci91FRX4"
+    },
+    {
+        "Name": "🚚 FICTIONAL Land VEHICLES | 3D Real Scale 🚗",
+        "Link": "https://www.youtube.com/watch?v=n89pdCAqJyY"
+    },
+    {
+        "Name": "LCCS: The LCD / CRT Hybrid from JVC",
+        "Link": "https://www.youtube.com/watch?v=z-q8ehzHeQQ"
+    },
+    {
+        "Name": "Exploring the World of E-Ink",
+        "Link": "https://www.youtube.com/watch?v=dhRgw0HfrYU"
+    },
+    {
+        "Name": "The $3000 Sony Aibo Robot Dog",
+        "Link": "https://www.youtube.com/watch?v=8t8fyiiQVZ0"
+    },
+    {
+        "Name": "Make Coca-Cola At Home?",
+        "Link": "https://www.youtube.com/watch?v=vI25nMmklwE"
+    },
+    {
+        "Name": "New DeLoreans are still available, straight from the factory",
+        "Link": "https://www.youtube.com/watch?v=0lrIqGphJx8"
+    },
+    {
+        "Name": "HDMI, DisplayPort, VGA, and DVI as Fast As Possible",
+        "Link": "https://www.youtube.com/watch?v=f38sotYHqtA"
+    },
+    {
+        "Name": "Image File Formats - JPEG, GIF, PNG",
+        "Link": "https://www.youtube.com/watch?v=ww12lImOJ38"
+    },
+    {
+        "Name": "Mouse Cursor History (and why I made my own)",
+        "Link": "https://www.youtube.com/watch?v=YThelfB2fvg"
+    },
+    {
+        "Name": "Chroma Galaxies HDR // Experimental Macro Short Film // Shot In 8K",
+        "Link": "https://www.youtube.com/watch?v=UPeocNGQPNk"
+    },
+    {
+        "Name": "EXPLORATION - Inspirational NASA Space Film",
+        "Link": "https://www.youtube.com/watch?v=xAuxvVBMykI"
+    },
+    {
+        "Name": "Stars 101 | National Geographic",
+        "Link": "https://www.youtube.com/watch?v=EFO_bsg1sw8"
+    },
+    {
+        "Name": "Saturn 101 | National Geographic",
+        "Link": "https://www.youtube.com/watch?v=epZdZaEQhS0"
+    },
+    {
+        "Name": "Hear the Otherworldly Sounds of Skating on Thin Ice | National Geographic",
+        "Link": "https://www.youtube.com/watch?v=v3O9vNi-dkA"
+    },
+    {
+        "Name": "Where the 1960s \"psychedelic\" look came from",
+        "Link": "https://www.youtube.com/watch?v=9vuqI2v2IRs"
+    },
+    {
+        "Name": "The sound illusion that makes Dunkirk so intense",
+        "Link": "https://www.youtube.com/watch?v=LVWTQcZbLgY"
+    },
+    {
+        "Name": "How the BBC makes Planet Earth look like a Hollywood movie",
+        "Link": "https://www.youtube.com/watch?v=qAOKOJhzYXk"
+    },
+    {
+        "Name": "How to practice effectively...for just about anything - Annie Bosler and Don Greene",
+        "Link": "https://www.youtube.com/watch?v=f2O6mQkFiiw"
+    },
+    {
+        "Name": "What is bipolar disorder? - Helen M. Farrell",
+        "Link": "https://www.youtube.com/watch?v=RrWBhVlD1H8"
+    },
+    {
+        "Name": "The Dark Side of the Web",
+        "Link": "https://www.youtube.com/watch?v=mUP0tx7Ib2w"
+    },
+    {
+        "Name": "Top 10 Facts - Dinosaurs",
+        "Link": "https://www.youtube.com/watch?v=VoccyfFEMLI"
+    },
+    {
+        "Name": "Top 10 Facts - Anime",
+        "Link": "https://www.youtube.com/watch?v=Ja8JFEypESU"
+    },
+    {
+        "Name": "How AIs, like ChatGPT, Learn",
+        "Link": "https://www.youtube.com/watch?v=R9OHn5ZF4Uo"
+    },
+    {
+        "Name": "The Race to Win Staten Island",
+        "Link": "https://www.youtube.com/watch?v=Ex74x_gqTU0"
+    },
+    {
+        "Name": "How Netflix's 'Klaus' Made 2D Animation Look 3D | Movies Insider",
+        "Link": "https://www.youtube.com/watch?v=BlU49dJhfcw"
+    },
+    {
+        "Name": "Why 'The Mandalorian' Uses Virtual Sets Over Green Screen | Movies Insider",
+        "Link": "https://www.youtube.com/watch?v=Ufp8weYYDE8"
+    },
+    {
+        "Name": "Coins Have Hidden Booby Traps And Secret Levers | Insider Art",
+        "Link": "https://www.youtube.com/watch?v=XP4Ec_jjanY"
+    },
+    {
+        "Name": "Creating Fake Neon Signs With Spray Paint | Master Craft",
+        "Link": "https://www.youtube.com/watch?v=TOSFmKy2fKA"
+    },
+    {
+        "Name": "How Fresh Boba Tea Is Made",
+        "Link": "https://www.youtube.com/watch?v=1I5fa2GVlLA"
+    },
+    {
+        "Name": "UNDERGRADUATE ARCHITECTURE STUDENT | Uni Project | Pavilion",
+        "Link": "https://www.youtube.com/watch?v=tIn3JSD0a9w"
+    },
+    {
+        "Name": "Van Gogh on Dark Water",
+        "Link": "https://www.youtube.com/watch?v=4dKy7HNU4vk"
+    },
+    {
+        "Name": "This Artist Makes Incredible Sculptures Out of Fabric",
+        "Link": "https://www.youtube.com/watch?v=fLLOlB2WF_Y"
+    },
+    {
+        "Name": "Illuminating hyperbolic geometry",
+        "Link": "https://www.youtube.com/watch?v=eGEQ_UuQtYs"
+    },
+    {
+        "Name": "Miniature Railway (1959)",
+        "Link": "https://www.youtube.com/watch?v=HsUJ9i6pTYg"
+    },
+    {
+        "Name": "Italian Fashions (1956)",
+        "Link": "https://www.youtube.com/watch?v=Tvq8dbdsSLY"
+    },
+    {
+        "Name": "7 Tips For Learning A New Language",
+        "Link": "https://www.youtube.com/watch?v=CNbklPRdT4Y"
+    },
+    {
+        "Name": "How to Change the Color of Anything in Photoshop",
+        "Link": "https://www.youtube.com/watch?v=Hg1WS_yOcHM"
+    },
+    {
+        "Name": "Sakura in 8K",
+        "Link": "https://www.youtube.com/watch?v=-YTNe0c5M2Y"
+    },
+    {
+        "Name": "Take a (Virtual) Tour of NYU",
+        "Link": "https://www.youtube.com/watch?v=GxqR6p8r6z0"
+    },
+    {
+        "Name": "Vincent Van Gogh Visits the Gallery | Vincent and the Doctor | Doctor Who",
+        "Link": "https://www.youtube.com/watch?v=ubTJI_UphPk"
+    },
+    {
+        "Name": "Stranger Things Cast Answer the Web's Most Searched Questions | WIRED",
+        "Link": "https://www.youtube.com/watch?v=_EvMYEfF_hQ"
+    },
+    {
+        "Name": "Lin-Manuel Miranda Answers the Web's Most Searched Questions | WIRED",
+        "Link": "https://www.youtube.com/watch?v=XUZUxoUHnu8"
+    },
+    {
+        "Name": "Jeremy Clarkson, Richard Hammond & James May Show Us the Last Thing on Their Phones | WIRED",
+        "Link": "https://www.youtube.com/watch?v=cwxRoPv3-vw"
+    },
+    {
+        "Name": "How This Guy Folds and Flies World Record Paper Airplanes | WIRED",
+        "Link": "https://www.youtube.com/watch?v=3BNg4fDJC8A"
+    },
+    {
+        "Name": "Niall Horan Teaches You Irish Slang | Vanity Fair",
+        "Link": "https://www.youtube.com/watch?v=0NTczzgcYzI"
+    },
+    {
+        "Name": "Jessica Lange Breaks Down Her Career, from King Kong to American Horror Story | Vanity Fair",
+        "Link": "https://www.youtube.com/watch?v=V3PK_fBIzBM"
+    },
+    {
+        "Name": "Try Not To Say WOW Challenge... (HARD)",
+        "Link": "https://www.youtube.com/watch?v=nyfQONK-GLQ"
+    },
+    {
+        "Name": "Funniest Yearbook Quotes",
+        "Link": "https://www.youtube.com/watch?v=5-c-IOgd8lQ"
+    },
+    {
+        "Name": "Katsucon 2019 Cosplay Fun",
+        "Link": "https://www.youtube.com/watch?v=bkbJsJ6lxyQ"
+    },
+    {
+        "Name": "Leonardo DiCaprio winning Best Actor | 88th Oscars (2016)",
+        "Link": "https://www.youtube.com/watch?v=xpyrefzvTpI"
+    },
+    {
+        "Name": "Emma Stone wins Best Actress | 89th Oscars (2017)",
+        "Link": "https://www.youtube.com/watch?v=D3sotAxZSG8"
+    },
+    {
+        "Name": "Quicksilver Meets Wolverine Scene | X-Men: Days Of Future Past (2014) Movie Clip",
+        "Link": "https://www.youtube.com/watch?v=TzsAOjT-n2s"
+    },
+    {
+        "Name": "Tony Stark Creating New Element Scene - Iron-Man 2 (2010) Movie CLIP HD",
+        "Link": "https://www.youtube.com/watch?v=y0brSA1cyzw"
+    },
+    {
+        "Name": "Emma Watson: In The Bag | Episode 17 | British Vogue",
+        "Link": "https://www.youtube.com/watch?v=aLJMEs_9ZZE"
+    },
+    {
+        "Name": "Fred & George Weasley | Oh No!",
+        "Link": "https://www.youtube.com/watch?v=Hv0iBUOTeak"
+    },
+    {
+        "Name": "Newt Scamander | The Story of My Life",
+        "Link": "https://www.youtube.com/watch?v=iduwf3QE9x8"
+    },
+    {
+        "Name": "Best of USA in 4K",
+        "Link": "https://www.youtube.com/watch?v=4Ot0T4iCXfM"
+    },
+    {
+        "Name": "Painting a SAILORMOON MANGA on my BEDROOM WALL!!!!!!",
+        "Link": "https://www.youtube.com/watch?v=0DTG1wMkUGo"
+    },
+    {
+        "Name": "\"Harry Potter\" Homecoming Assembly",
+        "Link": "https://www.youtube.com/watch?v=iSEkI3Urmd4"
+    },
+    {
+        "Name": "Vancouver Vacation Travel Guide | Expedia",
+        "Link": "https://www.youtube.com/watch?v=a4d5CbK0b3A"
+    },
+    {
+        "Name": "Yosemite National Park Vacation Travel Guide | Expedia",
+        "Link": "https://www.youtube.com/watch?v=9fJEFi3ccwI"
+    },
+    {
+        "Name": "New York City in 1993 in HD - DTheater DVHS Demo Tape",
+        "Link": "https://www.youtube.com/watch?v=fT4lDU-QLUY"
+    },
+    {
+        "Name": "NETHERLANDS summer in Giethoorn (hd-video)",
+        "Link": "https://www.youtube.com/watch?v=lfsAfvPzZMU"
+    },
+    {
+        "Name": "What's Inside Specialty Coffee Shop? A Tour at FUKU Cafe in Amsterdam",
+        "Link": "https://www.youtube.com/watch?v=N2iUIqP0pzI"
+    },
+    {
+        "Name": "13 Things to do in Sedona, Arizona: A Travel Guide",
+        "Link": "https://www.youtube.com/watch?v=_qHjLngt7OI"
+    },
+    {
+        "Name": "TOP 5 THINGS TO DO IN LYON | FRANCE",
+        "Link": "https://www.youtube.com/watch?v=ZKBVHuPkCzY"
+    },
+    {
+        "Name": "Prague Tour | Erich Gonzales",
+        "Link": "https://www.youtube.com/watch?v=uOt-N4Rbtbk"
+    },
+    {
+        "Name": "Living with the Dark Winters in Sweden | Midnight sun & Polar night",
+        "Link": "https://www.youtube.com/watch?v=3zTR4ayDG38"
+    },
+    {
+        "Name": "Autumn Log Cabin Getaway",
+        "Link": "https://www.youtube.com/watch?v=4J4xLwgX23c"
+    },
+    {
+        "Name": "Star Wars SC 38 Reimagined",
+        "Link": "https://www.youtube.com/watch?v=to2SMng4u1k"
+    },
+    {
+        "Name": "What 10 Pendulums Look Like with Zero Friction",
+        "Link": "https://www.youtube.com/watch?v=_4ICFmAr_DQ"
+    },
+    {
+        "Name": "STACK - CG Animated Short Film 2019",
+        "Link": "https://www.youtube.com/watch?v=X9SzUlaH4L0"
+    },
+    {
+        "Name": "CGI 3D Animation Short Film HD \"The Wishgranter\" by Wishgranter Team | CGMeetup",
+        "Link": "https://www.youtube.com/watch?v=zON0wDD7VJY"
+    },
+    {
+        "Name": "Getting Recognized",
+        "Link": "https://www.youtube.com/watch?v=THO_t-Dhaa0"
+    },
+    {
+        "Name": "Monsters You Didn't Know Were Under Your Bed",
+        "Link": "https://www.youtube.com/watch?v=2abU2R1b5hA"
+    },
+    {
+        "Name": "Happiness",
+        "Link": "https://www.youtube.com/watch?v=e9dZQelULDk"
+    },
+    {
+        "Name": "Wanderers - a short film by Erik Wernquist [Official Version]",
+        "Link": "https://www.youtube.com/watch?v=YH3c1QZzRK4"
+    },
+    {
+        "Name": "Steamboat Willie Animation Compilation",
+        "Link": "https://www.youtube.com/watch?v=EJMxaDdgbFA"
+    },
+    {
+        "Name": "All's Fair at the Fair (1938)",
+        "Link": "https://www.youtube.com/watch?v=LAFqAbrPKxQ"
+    },
+    {
+        "Name": "DIY Waterfall End Table — How to Woodworking",
+        "Link": "https://www.youtube.com/watch?v=XOG8Qp_GCWY"
+    },
+    {
+        "Name": "Stunning LED lighting projects you can make at home!",
+        "Link": "https://www.youtube.com/watch?v=Jh618yi0JZY"
+    },
+    {
+        "Name": "How to make a CUP: slab building technique",
+        "Link": "https://www.youtube.com/watch?v=ie5NdWCXK3A"
+    },
+    {
+        "Name": "Scotland from Above in High Definition - Isle of Skye to Ben Nevis (HD)",
+        "Link": "https://www.youtube.com/watch?v=enSXkLj9iuo"
+    },
+    {
+        "Name": "Germany from Above - Spectacular Route from Lindau to Berchtesgaden (HD)",
+        "Link": "https://www.youtube.com/watch?v=Qctb90Udisk"
+    },
+    {
+        "Name": "Germany's Oldest Street-Legal Car | 1894 Benz Victoria | German Cars",
+        "Link": "https://www.youtube.com/watch?v=bQ4vB55z0RE"
+    },
+    {
+        "Name": "Highest Railway Station In Europe | Jungfraujoch In Switzerland | Europe To The Maxx",
+        "Link": "https://www.youtube.com/watch?v=iCiCO8YNuAw"
+    },
+    {
+        "Name": "50 Best Motion Logos | Cool Logo Animations | Adobe Creative Cloud",
+        "Link": "https://www.youtube.com/watch?v=1tj7Y3PR16s"
+    },
+    {
+        "Name": "Somewhere Down the Line",
+        "Link": "https://www.youtube.com/watch?v=kf4MH987TrI"
+    },
+    {
+        "Name": "The Drive - ft HOME - Resonance",
+        "Link": "https://www.youtube.com/watch?v=YhUPi6-MQNE"
+    },
+    {
+        "Name": "DISCOVER ICELAND | A WINTER ROAD TRIP",
+        "Link": "https://www.youtube.com/watch?v=15JkSZ95wzI"
+    },
+    {
+        "Name": "KOLD - My Best Drone Clips 2019",
+        "Link": "https://www.youtube.com/watch?v=kTWoeqPXpuo"
+    },
+    {
+        "Name": "ALIVE | Canada 4K",
+        "Link": "https://www.youtube.com/watch?v=8Z1eMy2FoX4"
+    },
+    {
+        "Name": "The Alps 4K | Drone & iPhone X",
+        "Link": "https://www.youtube.com/watch?v=FCPdIvXo2rU"
+    },
+    {
+        "Name": "Let's Go - Venice",
+        "Link": "https://www.youtube.com/watch?v=rDeecJWUsXo"
+    },
+    {
+        "Name": "PHOTOGRAPHY BASICS in 10 MINUTES",
+        "Link": "https://www.youtube.com/watch?v=V7z7BAZdt2M"
+    },
+    {
+        "Name": "7 SIMPLE photography TIPS I wish I knew EARLIER",
+        "Link": "https://www.youtube.com/watch?v=jAk_xhs0Rcw"
+    },
+    {
+        "Name": "Woodland Photography - Attention to detail",
+        "Link": "https://www.youtube.com/watch?v=qNkht08ou30"
+    },
+    {
+        "Name": "New Favourite Place - Atlantic Rainforest Photography",
+        "Link": "https://www.youtube.com/watch?v=GYdDPgr-LV0"
+    },
+    {
+        "Name": "Dream Home Music Studio - How To Build From Start To Finish",
+        "Link": "https://www.youtube.com/watch?v=sKT80lPjQ8Y"
+    },
+    {
+        "Name": "Wintergatan - Marble Machine (music instrument using 2000 marbles)",
+        "Link": "https://www.youtube.com/watch?v=IvUU8joBb1Q"
+    },
+    {
+        "Name": "Best Drummer Ever [HD]",
+        "Link": "https://www.youtube.com/watch?v=FqJdzYY_Fas"
+    },
+    {
+        "Name": "Yo-Yo Ma - Bach: Cello Suite No. 1 in G Major, Prélude (Official Video)",
+        "Link": "https://www.youtube.com/watch?v=1prweT95Mo0"
+    },
+    {
+        "Name": "Ludovico Einaudi - \"Elegy for the Arctic\" - Official Live (Greenpeace)",
+        "Link": "https://www.youtube.com/watch?v=2DLnhdnSUVs"
+    },
+    {
+        "Name": "Debussy - Clair de Lune",
+        "Link": "https://www.youtube.com/watch?v=WNcsUNKlAKw"
+    },
+    {
+        "Name": "John Williams & Wiener Philharmoniker – \"Main Title\" from \"Star Wars: A New Hope\"",
+        "Link": "https://www.youtube.com/watch?v=54hoKbTWon4"
+    },
+    {
+        "Name": "John Williams & Vienna Philharmonic – Williams: Theme from “Jurassic Park”",
+        "Link": "https://www.youtube.com/watch?v=-NqaupGcCpw"
+    },
+    {
+        "Name": "Bugs Rules",
+        "Link": "https://www.youtube.com/watch?v=BX1ljYx3g3k"
+    },
+    {
+        "Name": "Back to the Future | Marty McFly Plays \"Johnny B. Goode\" and \"Earth Angel\"",
+        "Link": "https://www.youtube.com/watch?v=T_WSXXPQYeY"
+    },
+    {
+        "Name": "Orkestra Obsolete play Blue Monday using 1930s instruments - BBC Arts",
+        "Link": "https://www.youtube.com/watch?v=cHLbaOLWjpc"
+    },
+    {
+        "Name": "50 Incredible Vintage Photos of Life in America during the 1950s Volume 1",
+        "Link": "https://www.youtube.com/watch?v=LoysvC0yt7s"
+    },
+    {
+        "Name": "Cosmos - Carl Sagan - 4th Dimension",
+        "Link": "https://www.youtube.com/watch?v=UnURElCzGc0"
+    },
+    {
+        "Name": "Behind the Scenes of Our Planet - Narwhal",
+        "Link": "https://www.youtube.com/watch?v=V29-HvFLOzQ"
+    },
+    {
+        "Name": "Bob Ross - Island in the Wilderness (Season 29 Episode 1)",
+        "Link": "https://www.youtube.com/watch?v=lLWEXRAnQd0"
+    },
+    {
+        "Name": "Shopping Mall 3D architectural Walk-through",
+        "Link": "https://www.youtube.com/watch?v=5JoxoAL5GbE"
+    },
+    {
+        "Name": "St. Petersburg from the heights. White nights, drawbridges, Neva ...",
+        "Link": "https://www.youtube.com/watch?v=OrwuEMisg6w"
+    },
+    {
+        "Name": "Box",
+        "Link": "https://www.youtube.com/watch?v=lX6JcybgDFo"
+    },
+    {
+        "Name": "4D Toys: a box of four-dimensional toys, and how objects bounce and roll in 4D",
+        "Link": "https://www.youtube.com/watch?v=0t4aKJuKP0Q"
+    },
+    {
+        "Name": "To Scale: THE SOLAR SYSTEM",
+        "Link": "https://www.youtube.com/watch?v=zR3Igc3Rhfg"
+    },
+    {
+        "Name": "Meet interpreters working for the European Institutions",
+        "Link": "https://www.youtube.com/watch?v=ByhcKxMsa6Y"
+    },
+    {
+        "Name": "Ergonomics Expert Explains How to Set Up Your Desk | WSJ Pro Tip",
+        "Link": "https://www.youtube.com/watch?v=F8_ME4VwTiw"
+    },
+    {
+        "Name": "PROJECT TOUR: Century Group Office | Karin Bohn",
+        "Link": "https://www.youtube.com/watch?v=8S-ddHMVtSE"
+    },
+    {
+        "Name": "PROJECT TOUR: Vanilla Loft Hair Salon | Karin Bohn",
+        "Link": "https://www.youtube.com/watch?v=UNBScCvbquQ"
+    },
+    {
+        "Name": "6 Smoothie Bowl Recipes丨Easy and Delicious Breakfast",
+        "Link": "https://www.youtube.com/watch?v=94AV_epDjb4"
+    },
+    {
+        "Name": "11 Ways to Fill Your Notebooks 💭",
+        "Link": "https://www.youtube.com/watch?v=BX43ORwIwzw"
+    },
+    {
+        "Name": "Amazing Indoor-Outdoor Architecture Near Venice Beach",
+        "Link": "https://www.youtube.com/watch?v=lgWCwMaoJoM"
+    },
+    {
+        "Name": "Showing Her Creative Side in a Classic Los Angeles A-Frame",
+        "Link": "https://www.youtube.com/watch?v=A9iOyzngyfY"
+    },
+    {
+        "Name": "Exquisite Modern Marvel in Lower Saxony, Germany | Sotheby's International Realty",
+        "Link": "https://www.youtube.com/watch?v=8fZvFp1gdcg"
+    },
+    {
+        "Name": "The Glass House in Oakville, Canada",
+        "Link": "https://www.youtube.com/watch?v=G7wF2_LjryI"
+    },
+    {
+        "Name": "Le Chateau De Lumière - 4K - 9641 Georgetown Pike, Great Falls, VA",
+        "Link": "https://www.youtube.com/watch?v=4gQFGsB0VQw"
+    },
+    {
+        "Name": "clean vines that you should know",
+        "Link": "https://www.youtube.com/watch?v=9-RMqhZuAts"
+    },
+    {
+        "Name": "The Best Of The Internet (2019)",
+        "Link": "https://www.youtube.com/watch?v=8XkcbdSRdO0"
+    },
+    {
+        "Name": "The Best Of The Internet (2020)",
+        "Link": "https://www.youtube.com/watch?v=FGgtwEQ-BTk"
+    },
+    {
+        "Name": "Monkeys react to magic",
+        "Link": "https://www.youtube.com/watch?v=spMkaJp975s"
+    },
+    {
+        "Name": "TOP 5# mejores bailes del mundo",
+        "Link": "https://www.youtube.com/watch?v=PF_-o2EJfvs"
+    },
+    {
+        "Name": "Math Professor Fixes Projector Screen (April Fools Prank)",
+        "Link": "https://www.youtube.com/watch?v=Z9NQatne0xg"
+    },
+    {
+        "Name": "Live interview interrupted by blue whale 🐳 🤯 - BBC",
+        "Link": "https://www.youtube.com/watch?v=T2Xsfb4cT9Y"
+    },
+    {
+        "Name": "Furniture Optical Illusions - Zach King Magic",
+        "Link": "https://www.youtube.com/watch?v=FHJ3CMWnVxY"
+    },
+    {
+        "Name": "The Lemonade Machine",
+        "Link": "https://www.youtube.com/watch?v=Av07QiqmsoA"
+    },
+    {
+        "Name": "Darth Vader in Conservatory",
+        "Link": "https://www.youtube.com/watch?v=9IE3ReeXpAc"
+    },
+    {
+        "Name": "A Perfect Day In My Life! | Sierra Furtado",
+        "Link": "https://www.youtube.com/watch?v=ci9FzoKBPiI"
+    },
+    {
+        "Name": "Spring Break Survival Guide! What To Do, Outfits, Essentials and How To Prepare!",
+        "Link": "https://www.youtube.com/watch?v=7fvwcPDxMmg"
+    },
+    {
+        "Name": "Cotton Wool Ball Challenge With Troye Sivan",
+        "Link": "https://www.youtube.com/watch?v=9BcTi1qjK-U"
+    },
+    {
+        "Name": "\"Most Likely To\" Sibling Edition | Zoella",
+        "Link": "https://www.youtube.com/watch?v=HTidzrJUgT0"
+    },
+    {
+        "Name": "I Dressed Like It Was 1987",
+        "Link": "https://www.youtube.com/watch?v=7KbjNfCV-lY"
+    },
+    {
+        "Name": "what i wear in a week | spring ootw",
+        "Link": "https://www.youtube.com/watch?v=wa-QCy6A-ck"
+    },
+    {
+        "Name": "Unisex Outfits",
+        "Link": "https://www.youtube.com/watch?v=LJa-bLZsz2o"
+    },
+    {
+        "Name": "my LA room tour | dreamy, cute & cozy space ☁️🌿",
+        "Link": "https://www.youtube.com/watch?v=vr-ePhF4PVM"
+    },
+    {
+        "Name": "What a SCHOOL FIELD TRIP IN AMERICA is Like..??!",
+        "Link": "https://www.youtube.com/watch?v=bhseoSl3nLY"
+    },
+    {
+        "Name": "FRENCH or AMERICAN PUBLIC SCHOOL? Which Do I Like Better?? Q&A",
+        "Link": "https://www.youtube.com/watch?v=IVCyDiAUdr4"
+    },
+    {
+        "Name": "What Did Ancient Greece Look Like? (Cinematic Animation)",
+        "Link": "https://www.youtube.com/watch?v=3YrJxz6xsAk"
+    },
+    {
+        "Name": "Mont Saint Michel from a drone.",
+        "Link": "https://www.youtube.com/watch?v=-rhtVj0gJMU"
+    },
+    {
+        "Name": "Where to Stay in PARIS, France",
+        "Link": "https://www.youtube.com/watch?v=86B6Qt5C19Y"
+    },
+    {
+        "Name": "Color Theory Basics",
+        "Link": "https://www.youtube.com/watch?v=L1CK9bE3H_s"
+    },
+    {
+        "Name": "3 interesting things to see in Uppsala, Sweden!",
+        "Link": "https://www.youtube.com/watch?v=kqj_30VuG_I"
+    },
+    {
+        "Name": "Documentary: Nordic Service Design",
+        "Link": "https://www.youtube.com/watch?v=330YCLMDaRg"
+    },
+    {
+        "Name": "Why Finland's schools outperform most others across the developed world | 7.30",
+        "Link": "https://www.youtube.com/watch?v=7xCe2m0kiSg"
+    },
+    {
+        "Name": "Helsinki Vacation Travel Guide | Expedia",
+        "Link": "https://www.youtube.com/watch?v=mPs_lCNRNDU"
+    },
+    {
+        "Name": "Helsinki | Real 8K",
+        "Link": "https://www.youtube.com/watch?v=zWi8QrIn9tI"
+    },
+    {
+        "Name": "5 REASONS TO VISIT TAMPERE in FINLAND (Honest Guide)",
+        "Link": "https://www.youtube.com/watch?v=7KyX6K1ty24"
+    },
+    {
+        "Name": "Marshmello ft. Bastille - Happier (Official Music Video)",
+        "Link": "https://www.youtube.com/watch?v=m7Bc3pLyij0"
+    },
+    {
+        "Name": "Robin Schulz - Sun Goes Down feat. Jasmine Thompson (Official Video)",
+        "Link": "https://www.youtube.com/watch?v=Mo4cmTaEDIk"
+    },
+    {
+        "Name": "ABBA - Gimme! Gimme! Gimme! (A Man After Midnight)",
+        "Link": "https://www.youtube.com/watch?v=XEjLoHdbVeE"
+    },
+    {
+        "Name": "Nathan Evans - Wellerman (Sea Shanty)",
+        "Link": "https://www.youtube.com/watch?v=qP-7GNoDJ5c"
+    },
+    {
+        "Name": "TheFatRat - Unity",
+        "Link": "https://www.youtube.com/watch?v=n8X9_MgEdCg"
+    },
+    {
+        "Name": "Avril Lavigne - Complicated (Official Video)",
+        "Link": "https://www.youtube.com/watch?v=5NPBIwQyPWE"
+    },
+    {
+        "Name": "Avicii - The Nights",
+        "Link": "https://www.youtube.com/watch?v=UtF6Jej8yb4"
+    },
+    {
+        "Name": "Italobrothers - Stamp On The Ground (Official Video HD)",
+        "Link": "https://www.youtube.com/watch?v=cHcVU5cGUNE"
+    },
+    {
+        "Name": "Mike Perry - The Ocean ft. Shy Martin",
+        "Link": "https://www.youtube.com/watch?v=5JxgDJvqGmM"
+    },
+    {
+        "Name": "Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles)",
+        "Link": "https://www.youtube.com/watch?v=68ugkg9RePc"
+    },
+    {
+        "Name": "Axwell Λ Ingrosso - Sun Is Shining (Official Music Video)",
+        "Link": "https://www.youtube.com/watch?v=nbXgHAzUWB0"
+    },
+    {
+        "Name": "Electric Light Orchestra - Mr. Blue Sky (Animated Video)",
+        "Link": "https://www.youtube.com/watch?v=G8dsvclf3Tk"
+    },
+    {
+        "Name": "Thirty Seconds To Mars - Stay (Rihanna) in the Live Lounge",
+        "Link": "https://www.youtube.com/watch?v=IqPATbDhrb4"
+    },
+    {
+        "Name": "The Script - Hall of Fame (Official Video) ft. will.i.am",
+        "Link": "https://www.youtube.com/watch?v=mk48xRzuNvA"
+    },
+    {
+        "Name": "The Cars - You Might Think (Official Music Video)",
+        "Link": "https://www.youtube.com/watch?v=3dOx510kyOs"
+    },
+    {
+        "Name": "M83 'Midnight City' Official video",
+        "Link": "https://www.youtube.com/watch?v=dX3k_QDnzHE"
+    },
+    {
+        "Name": "Dayglow - Deep End (Official Video)",
+        "Link": "https://www.youtube.com/watch?v=HFd2lVfrwL8"
+    },
+    {
+        "Name": "Lost Frequencies & Zonderling - Crazy (Official Music Video)",
+        "Link": "https://www.youtube.com/watch?v=LVEwL-sZzmM"
+    },
+    {
+        "Name": "Around the World (La La La La La) (Radio Version)",
+        "Link": "https://www.youtube.com/watch?v=pSVbF6DGH9U"
+    },
+    {
+        "Name": "Calvin Harris - My Way (Official Video)",
+        "Link": "https://www.youtube.com/watch?v=b4Bj7Zb-YD4"
+    },
+    {
+        "Name": "S Club - Reach",
+        "Link": "https://www.youtube.com/watch?v=50kP4S0peAs"
+    },
+    {
+        "Name": "Supermode - Tell Me Why (OFFICIAL VIDEO)",
+        "Link": "https://www.youtube.com/watch?v=zTDeEJyCmNA"
+    },
+    {
+        "Name": "Shania Twain - Ka-Ching! (Red Version) (Official Music Video)",
+        "Link": "https://www.youtube.com/watch?v=iEe3hBXZEyI"
+    },
+    {
+        "Name": "Journey - Don't Stop Believin' (Official Audio)",
+        "Link": "https://www.youtube.com/watch?v=1k8craCGpgs"
+    },
+    {
+        "Name": "Avril Lavigne - I'm With You (Official Video)",
+        "Link": "https://www.youtube.com/watch?v=dGR65RWwzg8"
+    },
+    {
+        "Name": "Kygo - Stranger Things ft. OneRepublic (Official Audio)",
+        "Link": "https://www.youtube.com/watch?v=iFPMz36std4"
+    },
+    {
+        "Name": "Miki - La Venda - Spain 🇪🇸- Official Music Video - Eurovision 2019",
+        "Link": "https://www.youtube.com/watch?v=pEaS6atxFgc"
+    },
+    {
+        "Name": "The Traveling Wilburys - Inside Out (Official Video)",
+        "Link": "https://www.youtube.com/watch?v=fq5yHdVKSQs"
+    },
+    {
+        "Name": "Maroon 5 - Sunday Morning",
+        "Link": "https://www.youtube.com/watch?v=S2Cti12XBw4"
+    },
+    {
+        "Name": "VINAI - On N On (feat. Leony) [Official Lyric Video]",
+        "Link": "https://www.youtube.com/watch?v=uSNHveS_GZw"
+    },
+    {
+        "Name": "Lemonade Mouth - Somebody",
+        "Link": "https://www.youtube.com/watch?v=YJ5fRzTJvS4"
+    },
+    {
+        "Name": "Matt Berninger - Distant Axis (Live from EastWest)",
+        "Link": "https://www.youtube.com/watch?v=uxV1_RuOqAw"
+    },
+    {
+        "Name": "Janji - Shine",
+        "Link": "https://www.youtube.com/watch?v=nK9J9HPRlS8"
+    },
+    {
+        "Name": "Al Jarreau - Boogie Down (Official Video)",
+        "Link": "https://www.youtube.com/watch?v=eL8vHOAp9E8"
+    },
+    {
+        "Name": "The Seekers - Morningtown Ride (HQ Stereo, 1964/'68)",
+        "Link": "https://www.youtube.com/watch?v=M-RkC6MYT2E"
+    },
+    {
+        "Name": "Sigrid - Basic (Live Performance) | Vevo",
+        "Link": "https://www.youtube.com/watch?v=4oEQ8Nj1zmw"
+    },
+    {
+        "Name": "Nicklas Sahl - There For You (Official Music Video)",
+        "Link": "https://www.youtube.com/watch?v=Le89T4LWask"
+    },
+    {
+        "Name": "LO - Last Call (feat. Elouiz) [Lyric Video]",
+        "Link": "https://www.youtube.com/watch?v=hhOk6BM9BaU"
+    },
+    {
+        "Name": "Thalia - Cantando Por Un Sueño",
+        "Link": "https://www.youtube.com/watch?v=RCXWZICXPbQ"
+    },
+    {
+        "Name": "Sebalter - Hunter of Stars (Switzerland) 2014 Eurovision Song Contest",
+        "Link": "https://www.youtube.com/watch?v=kjWG0oNpWog"
+    },
+    {
+        "Name": "5 Uskomatonta paikkaa maailmassa",
+        "Link": "https://www.youtube.com/watch?v=lQS8U3Xpw7k"
+    },
+    {
+        "Name": "5 Uskomatonta paikkaa maailmassa #2",
+        "Link": "https://www.youtube.com/watch?v=lEP-qi0hzkg"
+    },
+    {
+        "Name": "5 Hämmästyttävää UFO-videota",
+        "Link": "https://www.youtube.com/watch?v=m3CgnX969nY"
+    },
+    {
+        "Name": "Atlantiksen kadonnut kaupunki on löydetty?",
+        "Link": "https://www.youtube.com/watch?v=49EfGcYZdX8"
+    },
+    {
+        "Name": "Oudot urheilulajit!",
+        "Link": "https://www.youtube.com/watch?v=TzZJZ1mJOAM"
+    },
+    {
+        "Name": "TUME OIKEISSA TÖISSÄ 2: Lastenhoitajana",
+        "Link": "https://www.youtube.com/watch?v=dZKaij4oZxg"
+    },
+    {
+        "Name": "Värjää hiukset kasveilla | Emma ja Milla testaa",
+        "Link": "https://www.youtube.com/watch?v=Mux4N66aiSs"
+    },
+    {
+        "Name": "JASMIN maalaa GRAFFITIN",
+        "Link": "https://www.youtube.com/watch?v=_u0U0AhplRY"
+    },
+    {
+        "Name": "SÄTKYAKKA - SANNI | POSSE4 | MTV3",
+        "Link": "https://www.youtube.com/watch?v=Ekbydm_StkQ"
+    },
+    {
+        "Name": "SÄTKYAKKA - EEVI TEITTINEN | POSSE4 | MTV3",
+        "Link": "https://www.youtube.com/watch?v=i8m6PvXJYlI"
+    },
+    {
+        "Name": "BLOOPERS OSA 5 | Salatut elämät",
+        "Link": "https://www.youtube.com/watch?v=qJYT-oKW-gg"
+    },
+    {
+        "Name": "BLOOPERS OSA 2 | Salatut elämät",
+        "Link": "https://www.youtube.com/watch?v=4FyDAiP8I8w"
+    },
+    {
+        "Name": "Nukuin yön itsetehdyssä PUUMAJASSA!",
+        "Link": "https://www.youtube.com/watch?v=ZNBPp1JlnAM"
+    },
+    {
+        "Name": "Pelasin golfia elämäni ensimmäistä kertaa!",
+        "Link": "https://www.youtube.com/watch?v=wBQCWURsjU0"
+    },
+    {
+        "Name": "SISUSTUSKORNERI: Kodin esittely",
+        "Link": "https://www.youtube.com/watch?v=-jE_YN7-KlA"
+    },
+    {
+        "Name": "Näin Teet Smoothie Bowlin",
+        "Link": "https://www.youtube.com/watch?v=obMzn6uXOow"
+    },
+    {
+        "Name": "Tumee jännittää",
+        "Link": "https://www.youtube.com/watch?v=d2381Wl58J0"
+    },
+    {
+        "Name": "Poliisikoulussa",
+        "Link": "https://www.youtube.com/watch?v=oLAyDKhD7ko"
+    },
+    {
+        "Name": "Kokkaillaan Lasagnea!",
+        "Link": "https://www.youtube.com/watch?v=xN5EII5VXxg"
+    },
+    {
+        "Name": "Kokkaillaan Kermainen Lohikeitto",
+        "Link": "https://www.youtube.com/watch?v=-nCH72hloyo"
+    },
+    {
+        "Name": "Juha Kankkunen ja Markku Alén muistelevat hurjia rallin",
+        "Link": "https://www.youtube.com/watch?v=ucUpYZOlvuw"
+    },
+    {
+        "Name": "Markku Alén & Lamborghini Urus",
+        "Link": "https://www.youtube.com/watch?v=Mu6PrVcY6z4"
+    },
+    {
+        "Name": "Markku Alén & Polaris RMK 800",
+        "Link": "https://www.youtube.com/watch?v=ab8DeC0s1fY"
+    },
+    {
+        "Name": "Lentäjän My Day",
+        "Link": "https://www.youtube.com/watch?v=zxV3y7PgGWk"
+    },
+    {
+        "Name": "Silja Line goes Tubekoulu – Kapteenin tubevideo",
+        "Link": "https://www.youtube.com/watch?v=OdFPOvkpsok"
+    },
+    {
+        "Name": "Silja Line - Uudistunut Silja Serenade",
+        "Link": "https://www.youtube.com/watch?v=XffEamjbYNc"
+    },
+    {
+        "Name": "Tasa-arvoisissa risteyksissä — Nettiauto",
+        "Link": "https://www.youtube.com/watch?v=JUGF3M6dCN0"
+    },
+    {
+        "Name": "SAFKAA: Lapsiperheen viikon ruoat 😋",
+        "Link": "https://www.youtube.com/watch?v=ORw4ItK_RyY"
+    },
+    {
+        "Name": "MIDNIGHT SUN in URHO KEKKONEN National Park [2020]",
+        "Link": "https://www.youtube.com/watch?v=zKLabmve1mY"
+    },
+    {
+        "Name": "Laatuaikaa luonnossa ja ruokaa avotulella | 24 tunnin retki",
+        "Link": "https://www.youtube.com/watch?v=ZnXHLrPizkA"
+    },
+    {
+        "Name": "Todella hyvä kuntoinenko autiotalo?",
+        "Link": "https://www.youtube.com/watch?v=B5emNVG3t68"
+    },
+    {
+        "Name": "Löydettiin HYLÄTTY TEHDAS keskeltä KAUPUNKIA!",
+        "Link": "https://www.youtube.com/watch?v=ge5IYDcwXb0"
+    },
+    {
+        "Name": "Testataan vanhoja skeittitemppuja",
+        "Link": "https://www.youtube.com/watch?v=YZrH-LkruMU"
+    },
+    {
+        "Name": "Opi vapaan hiihtotekniikka",
+        "Link": "https://www.youtube.com/watch?v=G-UuRM7yEGs"
+    },
+    {
+        "Name": "Huuhkajien historiallinen matka EM-kisoihin",
+        "Link": "https://www.youtube.com/watch?v=r8LOlxaBCik"
+    },
+    {
+        "Name": "Pukkiparty! | Teemu Pukki Championshipin maalipörssin kärjessä 23 maalilla",
+        "Link": "https://www.youtube.com/watch?v=uEdNq3fjNeY"
+    },
+    {
+        "Name": "U20 MM-puolivälierä 2019: Kanada - Suomi | Maalikooste",
+        "Link": "https://www.youtube.com/watch?v=jtSUVzARc5w"
+    },
+    {
+        "Name": "Himmeli | DIY | Tee se itse",
+        "Link": "https://www.youtube.com/watch?v=xC46ezX_Maw"
+    },
+    {
+        "Name": "Welcome to the Lappeenranta campus – LUT University",
+        "Link": "https://www.youtube.com/watch?v=EXWbgToo1X4"
+    },
+    {
+        "Name": "University campus life at JYU",
+        "Link": "https://www.youtube.com/watch?v=mzOFSsGI2WY"
+    },
+    {
+        "Name": "Viisi Android vinkkiä - Näin käytät puhelintasi",
+        "Link": "https://www.youtube.com/watch?v=_QCKpbFllDc"
+    },
+    {
+        "Name": "Super clean Lian-Li O11 RGB build",
+        "Link": "https://www.youtube.com/watch?v=ADLmB-9Goiw"
+    },
+    {
+        "Name": "IT-tukihenkilöksi I REDU",
+        "Link": "https://www.youtube.com/watch?v=ufWsjxB6bqM"
+    },
+    {
+        "Name": "Koodataan Nettisivut | Miskan Ohjelmointinurkka",
+        "Link": "https://www.youtube.com/watch?v=3Iif71ZUoS0"
+    },
+    {
+        "Name": "Miten julkaista omat verkkosivut",
+        "Link": "https://www.youtube.com/watch?v=XRvb5kb9Lx4"
+    },
+    {
+        "Name": "Millaista on raitiovaununkuljettajan arki?",
+        "Link": "https://www.youtube.com/watch?v=4bV4hseiFpk"
+    },
+    {
+        "Name": "Suomalaisia pienoisjunia Märklin radalla!",
+        "Link": "https://www.youtube.com/watch?v=N2pcNMX9Yeo"
+    },
+    {
+        "Name": "Turun tuomiokirkko 1400-luvulla",
+        "Link": "https://www.youtube.com/watch?v=4o8Sa2z_Rkg"
+    },
+    {
+        "Name": "Punavuori ennen ja nyt",
+        "Link": "https://www.youtube.com/watch?v=fAcdiueB27o"
+    },
+    {
+        "Name": "Päivä Helsingin Liikenteessä",
+        "Link": "https://www.youtube.com/watch?v=ILoQry0YNzc"
+    },
+    {
+        "Name": "Anssi Kela – Aamu",
+        "Link": "https://www.youtube.com/watch?v=Jm2xWQFE6f8"
+    },
+    {
+        "Name": "Ami Aspelund – Sinilintu",
+        "Link": "https://www.youtube.com/watch?v=YX67bpqgeCA"
+    },
+    {
+        "Name": "Ida Paul & Kalle Lindroth – Hosun",
+        "Link": "https://www.youtube.com/watch?v=vwDrZ1xDsfc"
+    },
+    {
+        "Name": "Vaiana/Moana - How Far I'll Go (Finnish) subs&trans",
+        "Link": "https://www.youtube.com/watch?v=bNrqQoQ4oiU"
+    },
+    {
+        "Name": "SANNI - Mä en haluu mennä himaan (virallinen musiikkivideo)",
+        "Link": "https://www.youtube.com/watch?v=kbHiTGGRgHg"
+    },
+    {
+        "Name": "Ilpo Kaikkonen – Kiitoradanpää",
+        "Link": "https://www.youtube.com/watch?v=ZHDkb5G8MI4"
+    },
+    {
+        "Name": "Reino Nordin - Ylös",
+        "Link": "https://www.youtube.com/watch?v=FrSHzSGxh8s"
+    },
+    {
+        "Name": "Jani & Jetsetters - Unta ja hopeaa",
+        "Link": "https://www.youtube.com/watch?v=9Ekv9XKc5Es"
+    },
+    {
+        "Name": "Anne Mattila, Asfalttiviidakko (Live 2019)",
+        "Link": "https://www.youtube.com/watch?v=mjbeJBCj0VY"
+    },
+    {
+        "Name": "Dino Mansik – Taivaalta on tähdet kadonneet",
+        "Link": "https://www.youtube.com/watch?v=ploNjv_-_Ok"
+    }
+]
+
+
 let randomize = document.getElementById('randomize');
 let go = document.getElementById('go');
 let details = document.getElementById('details');
@@ -5,6 +1209,10 @@ let info = document.getElementById('info');
 let info2 = document.getElementById('info2');
 let count = 0;
 let bar = 0;
+
+function chooseRandomNumber() {
+	return Math.floor(Math.random() * 300);
+}
 
 const about = document.getElementById('about');
 
@@ -36,887 +1244,7 @@ about.addEventListener('click', () => {
 })
 
 randomize.addEventListener('click', () => {
-	count = Math.floor(Math.random() * 220 + 1);
-	switch (count) {
-	case 1:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=lQS8U3Xpw7k');
-	info2.innerHTML = '5 Uskomatonta paikkaa maailmassa';
-	break;	
-	case 2:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=lEP-qi0hzkg');
-	info2.innerHTML = '5 Uskomatonta paikkaa maailmassa #2';
-	break;	
-	case 3:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=m3CgnX969nY');
-	info2.innerHTML = '5 Hämmästyttävää UFO-videota';
-	break;	
-	case 4:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=49EfGcYZdX8');
-	info2.innerHTML = 'Atlantiksen kadonnut kaupunki on löydetty?';
-	break;	
-	case 5:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=TzZJZ1mJOAM');
-	info2.innerHTML = 'Oudot urheilulajit!';
-	break;	
-	case 6:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Mux4N66aiSs');
-	info2.innerHTML = 'Värjää hiukset kasveilla | Emma ja Milla testaa';
-	break;	
-	case 7:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=_u0U0AhplRY');
-	info2.innerHTML = 'JASMIN maalaa GRAFFITIN';
-	break;	
-	case 8:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=wBQCWURsjU0');
-	info2.innerHTML = 'Pelasin golfia elämäni ensimmäistä kertaa!';
-	break;	
-	case 9:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=80xJEcsnqqs');
-	info2.innerHTML = 'Korjaan huonot slimet! ep. 7';
-	break;		
-	case 10:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=7LnRcK2TBWM');
-	info2.innerHTML = '10 erilaista opiskelijaa!';
-	break;	
-	case 11:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=NM5k3Rg1pVM');
-	info2.innerHTML = 'Synttäri My Day #17! 😱 // Vuokrasin Sviitin!';
-	break;	
-	case 12:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=25Q4sLQ16v0');
-	info2.innerHTML = 'STYLE SWAP w/pinkkupinsku';
-	break;	
-	case 13:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=-jE_YN7-KlA');
-	info2.innerHTML = 'SISUSTUSKORNERI: Kodin esittely';
-	break;	
-	case 14:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=obMzn6uXOow');
-	info2.innerHTML = 'Näin Teet Smoothie Bowlin';
-	break;	
-	case 15:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=N8-1KiqoiV4');
-	info2.innerHTML = 'Mun Päivä Koulussa (Lakko)';
-	break;	
-	case 16:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Mu6PrVcY6z4');
-	info2.innerHTML = 'Markku Alén & Lamborghini Urus';
-	break;	
-	case 17:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ab8DeC0s1fY');
-	info2.innerHTML = 'Markku Alén & Polaris RMK 800';
-	break;	
-	case 18:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=JUGF3M6dCN0');
-	info2.innerHTML = 'Tasa-arvoisissa risteyksissä — Nettiauto';
-	break;	
-	case 19:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ORw4ItK_RyY');
-	info2.innerHTML = 'SAFKAA: Lapsiperheen viikon ruoat 😋';
-	break;		
-	case 20:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=mHp2_vhjR0Q');
-	info2.innerHTML = 'Maapähkinävoi-kaurakeksit!';
-	break;	
-	case 21:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=YZrH-LkruMU');
-	info2.innerHTML = 'Testataan vanhoja skeittitemppuja';
-	break;	
-	case 22:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=HAJFfaiGg4c');
-	info2.innerHTML = 'Geneven autonäyttelyn uutuudet (Teknavi 2017)';
-	break;	
-	case 23:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=wqasPNZd3uU');
-	info2.innerHTML = 'Hyvän mielen metsäkävely – Kesä';
-	break;	
-	case 24:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=-spzCqcQWec');
-	info2.innerHTML = 'Syysseikkailu 2018 Norjassa ja Ruotsissa';
-	break;	
-	case 25:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=0qSQ3aV2ucU');
-	info2.innerHTML = 'Miksi tämä vesipuisto on rakennettu VUOREN huipulle?';
-	break;	
-	case 26:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=B5emNVG3t68');
-	info2.innerHTML = 'Todella hyvä kuntoinenko autiotalo?';
-	break;	
-	case 27:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ge5IYDcwXb0');
-	info2.innerHTML = 'Löydettiin HYLÄTTY TEHDAS keskeltä KAUPUNKIA!';
-	break;	
-	case 28:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=r8LOlxaBCik');
-	info2.innerHTML = 'Huuhkajien historiallinen matka EM-kisoihin | Finland\'s road to EURO 2021';
-	break;	
-	case 29:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=jtSUVzARc5w');
-	info2.innerHTML = 'U20 MM-puolivälierä 2019: Kanada - Suomi | Maalikooste';
-	break;		
-	case 30:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=OdFPOvkpsok');
-	info2.innerHTML = 'Silja Line goes Tubekoulu – Kapteenin tubevideo';
-	break;	
-	case 31:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=P7o1HH-1K70');
-	info2.innerHTML = 'Vauva Opettelee Konttaamaan 👶🏻🤙🏻 — Perheilta';
-	break;	
-	case 32:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=d1y-JX8KPeE');
-	info2.innerHTML = 'Taaperon Ensimmäinen Hiustenleikkaus – PERHEVLOGI';
-	break;	
-	case 33:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=xC46ezX_Maw');
-	info2.innerHTML = 'Himmeli | DIY | Tee se itse';
-	break;	
-	case 34:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=7h2FupOUJmg');
-	info2.innerHTML = 'Ohje: Joutsen origami';
-	break;	
-	case 35:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=CcAJrDl83n4');
-	info2.innerHTML = 'Ohje: Modulaarinen kuutio';
-	break;	
-	case 36:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=EXWbgToo1X4');
-	info2.innerHTML = 'Welcome to the Lappeenranta campus – LUT University';
-	break;	
-	case 37:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=mzOFSsGI2WY');
-	info2.innerHTML = 'Kampuselämää Jyväskylän yliopistossa - University campus life at JYU';
-	break;	
-	case 38:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=eOBi9kaeQ3A');
-	info2.innerHTML = 'Mistä kesätöitä löytää? | Näin onnistut työnhaussa';
-	break;	
-	case 39:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=OfJYDiXoLnk');
-	info2.innerHTML = 'Tramppapuistossa ja vegemessuilla';
-	break;		
-	case 40:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=oLAyDKhD7ko');
-	info2.innerHTML = 'Poliisikoulussa';
-	break;		
-	case 41:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=_QCKpbFllDc');
-	info2.innerHTML = 'Viisi Android vinkkiä - Näin käytät puhelintasi yksinkertaisemmin';
-	break;	
-	case 42:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ADLmB-9Goiw');
-	info2.innerHTML = 'Super clean Lian-Li O11 RGB build';
-	break;	
-	case 43:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ufWsjxB6bqM');
-	info2.innerHTML = 'IT-tukihenkilöksi I REDU';
-	break;	
-	case 44:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=3Iif71ZUoS0');
-	info2.innerHTML = 'Koodataan Nettisivut | Miskan Ohjelmointinurkka';
-	break;	
-	case 45:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=XRvb5kb9Lx4');
-	info2.innerHTML = 'Miten julkaista omat verkkosivut';
-	break;	
-	case 46:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=4bV4hseiFpk');
-	info2.innerHTML = 'Millaista on raitiovaununkuljettajan arki?';
-	break;	
-	case 47:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=N2pcNMX9Yeo');
-	info2.innerHTML = 'Suomalaisia pienoisjunia Märklin radalla!';
-	break;	
-	case 48:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=4o8Sa2z_Rkg');
-	info2.innerHTML = 'Turun tuomiokirkko 1400-luvulla';
-	break;	
-	case 49:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=fAcdiueB27o');
-	info2.innerHTML = 'Punavuori ennen ja nyt';
-	break;		
-	case 50:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ILoQry0YNzc');
-	info2.innerHTML = 'Päivä Helsingin Liikenteessä';
-	break;	
-	case 51:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=iEEgC_L4xCU');
-	info2.innerHTML = 'Aki Louhela – Neiti Etsivä';
-	break;	
-	case 52:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=dWUkLvDacgI');
-	info2.innerHTML = 'Alwari Tuohitorvi – Sinun Laulusi';
-	break;		
-	case 53:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=YX67bpqgeCA');
-	info2.innerHTML = 'Ami Aspelund – Sinilintu';
-	break;	
-	case 54:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Jm2xWQFE6f8');
-	info2.innerHTML = 'Anssi Kela – Aamu';
-	break;
-	case 55:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=6sf9vsDQKiI');
-	info2.innerHTML = 'Arja Koriseva – Tuulen Värit';
-	break;		
-	case 56:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=o3vJEN7CBlk');
-	info2.innerHTML = 'Baltix – Kauniita Sanoja';
-	break;	
-	case 57:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=VpHeGakHmRM');
-	info2.innerHTML = 'Dino Mansik - Ihmeellinen Timantti';
-	break;	
-	case 58:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=QSSCVlpNNSY');
-	info2.innerHTML = 'Dino Mansik – Iso Ja Tuntematon';
-	break;	
-	case 59:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ploNjv_-_Ok');
-	info2.innerHTML = 'Dino Mansik - Taivaalta On Tähdet Kadonneet';
-	break;	
-	case 60:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=TsJXVpbcsSU');
-	info2.innerHTML = 'Eetu Floor – Purjehtija';
-	break;	
-	case 61:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=0v1yMH8q4CQ');
-	info2.innerHTML = 'Egotrippi – Elokuu';
-	break;	
-	case 62:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=8cYeJ2uMwtg');
-	info2.innerHTML = 'Egotrippi – Fantastiset Bileet';
-	break;	
-	case 63:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=r8L0j4E0zXw');
-	info2.innerHTML = 'Egotrippi – Hei Sinä';
-	break;	
-	case 64:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=-wuhP8axNQA');
-	info2.innerHTML = 'Evelina – Asfalttiviidakko';
-	break;	
-	case 65:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=5ZqXts7_mzs');
-	info2.innerHTML = 'Haloo Helsinki – Sinisissä Valoissa';
-	break;	
-	case 66:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=I0HexOPFSRc');
-	info2.innerHTML = 'Herra Ylppö & Ihmiset – Videovuokraamon Tyttö';
-	break;	
-	case 67:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ZHDkb5G8MI4');
-	info2.innerHTML = 'Ilpo Kaikkonen – Kiitoradanpää';
-	break;	
-	case 68:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=FrSHzSGxh8s');
-	info2.innerHTML = 'Reino Nordin – Ylös';
-	break;	
-	case 69:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=7JzPRehD118');
-	info2.innerHTML = 'Robin – 3d-lasit';
-	break;	
-	case 70:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=3PcgRT-dgQM');
-	info2.innerHTML = 'Sanni – Mä En Haluu Mennä Himaan';
-	break;	
-	case 71:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=zWi8QrIn9tI');
-	info2.innerHTML = 'Helsinki | Real 8K';
-	break;	
-	case 72:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=4J4xLwgX23c');
-	info2.innerHTML = 'Weekend In The Woods Vlog';
-	break;	
-	case 73:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=xrG7POGqrR8');
-	info2.innerHTML = 'Make Your Houseplants Thrive';
-	break;	
-	case 74:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Fj4v_OtNsuU');
-	info2.innerHTML = 'Lappeenranta 4K Bird`s Eye view DJI Phantom 3 Pro';
-	break;	
-	case 75:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=djjEIexTTjI');
-	info2.innerHTML = 'Lakes! Flying Over Finland 4K Drone';
-	break;		
-	case 76:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=GHDtG4_Eq_c');
-	info2.innerHTML = 'Expedia. Philadelphia Travel Guide';
-	break;	
-	case 77:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=s1XoYkn3osE');
-	info2.innerHTML = 'Expedia. Barcelona Travel Guide';
-	break;	
-	case 78:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=TszSjE_kQwg');
-	info2.innerHTML = 'Evolution of Television 1920-2020 (updated)';
-	break;	
-	case 79:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=9fJEFi3ccwI');
-	info2.innerHTML = 'Expedia. Yosemite National Park Travel Guide';
-	break;	
-	case 80:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=B2utb9iav2o');
-	info2.innerHTML = 'Student room tour at Aalto Campus';
-	break;	
-	case 81:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=okZmnB3Hhb4');
-	info2.innerHTML = 'A new Bose–Einstein condensate created at Aalto University';
-	break;	
-	case 82:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=SSo_EIwHSd4');
-	info2.innerHTML = 'Blockchain Simply Explained';
-	break;	
-	case 83:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=DxUsrnd3VWY');
-	info2.innerHTML = 'Boston 4K Drone';
-	break;	
-	case 84:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=tqQnBzFAt8I');
-	info2.innerHTML = 'The Strangest Towns In The World';
-	break;	
-	case 85:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=FCPdIvXo2rU');
-	info2.innerHTML = 'The Alps 4K Video';
-	break;	
-	case 86:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=EDfWLui5Xhg');
-	info2.innerHTML = 'HD France From Above';
-	break;	
-	case 87:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=-7frMv9zT6w');
-	info2.innerHTML = 'HD New York From Above';
-	break;	
-	case 88:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=96hl5J47c3k');
-	info2.innerHTML = 'Abstract Art Case';
-	break;	
-	case 89:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ACkmg3Y64_s');
-	info2.innerHTML = 'Miniatur Wunderland Official Video';
-	break;	
-	case 90:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=VCzrDN4jmVs');
-	info2.innerHTML = 'Cool Manhattan NYC Street Painter';
-	break;	
-	case 91:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=tZGDCC4J2Zs');
-	info2.innerHTML = 'A Day In An American Private School';
-	break;		
-	case 92:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=822yxGSEK84');
-	info2.innerHTML = '10 Real Unbelievable Images';
-	break;	
-	case 93:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=PVT7uXzIJWc');
-	info2.innerHTML = 'Top 5 Trippy Motion Art Exhibits';
-	break;	
-	case 94:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=p3QEzXKQuTk');
-	info2.innerHTML = 'Top 5 Unusual Buildings';
-	break;	
-	case 95:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=6PxMBgbwuFo');
-	info2.innerHTML = 'Top 100 Car Brands | Largest Car Company in the world - 2022';
-	break;	
-	case 96:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=qO1brxn1rNs');
-	info2.innerHTML = '15 Cool Accidental Inventions';
-	break;	
-	case 97:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=hssSf2x2cRg');
-	info2.innerHTML = 'Top 10 Interesting Facts About Jupiter';
-	break;	
-	case 98:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=j_Y2Gwaj7Gs');
-	info2.innerHTML = 'Tour Red Hat\'s New Boston Office';
-	break;	
-	case 99:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=BG3eAR1ngeg');
-	info2.innerHTML = 'Insider. Massive Bookstore Rarities';
-	break;	
-	case 100:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=WmiCv9rNWqw');
-	info2.innerHTML = 'The Fake Town Created By Google';
-	break;	
-	case 101:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=cOW7DUrphoQ');
-	info2.innerHTML = 'Insider. 6 Best Places With Cheese In London';
-	break;	
-	case 102:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=NXwuJlY3uy0');
-	info2.innerHTML = 'Insider. Volcanic Lava Bread In Iceland';
-	break;	
-	case 103:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=nTpR1QayngU');
-	info2.innerHTML = 'Planet Unknown (2016) Short Film';
-	break;	
-	case 104:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=TOSFmKy2fKA');
-	info2.innerHTML = 'Insider. Spray Paint To Fake Neon Signs';
-	break;	
-	case 105:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=4pI62A0aSbg');
-	info2.innerHTML = 'Insider. Marble Art Design';
-	break;	
-	case 106:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Ju3LWnOkgcs');
-	info2.innerHTML = 'Cologne Plane Spotting';
-	break;	
-	case 107:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=PBbZ_0-tUH0');
-	info2.innerHTML = 'Best of URBAN Skating - POWERSLIDE Inline Skates';
-	break;		
-	case 108:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=i-qIOC7wQEQ');
-	info2.innerHTML = 'Boston & NYC Subway Competition';
-	break;	
-	case 109:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=PTH6boMUk8s');
-	info2.innerHTML = 'Top Gear – Chris Harris vs. Honda Civic Type R';
-	break;	
-	case 110:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=U75MZwtDCXA');
-	info2.innerHTML = 'Container Ship Cargo Operations';
-	break;	
-	case 111:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=_Nq4Z5i7lcs');
-	info2.innerHTML = 'Stanford University Campus Tour';
-	break;	
-	case 112:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=BV1vQBxi44E');
-	info2.innerHTML = 'Top ten UEFA EURO 2016 goals';
-	break;	
-	case 113:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=M6PTJptKZhI');
-	info2.innerHTML = 'Aeroscape Engineering';
-	break;	
-	case 114:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=7rMgpExA4kM');
-	info2.innerHTML = 'How Airplanes Are Made';
-	break;	
-	case 115:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=I-EIVlHvHRM');
-	info2.innerHTML = 'A. I. Art Creation';
-	break;	
-	case 116:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=zR3Igc3Rhfg');
-	info2.innerHTML = 'To Scale. The Solar System';
-	break;	
-	case 117:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=DDmz9iqyeSU');
-	info2.innerHTML = 'Sailing a Superboat Across the Atlantic';
-	break;	
-	case 118:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=SZ_sQaWn0Uo');
-	info2.innerHTML = 'Futuristic Greenhouse Visit';
-	break;	
-	case 119:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=V29-HvFLOzQ');
-	info2.innerHTML = 'Behind The Scenes Of Our Planet. Narwhal';
-	break;	
-	case 120:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=RtU8nBnpFVE');
-	info2.innerHTML = 'Wings Animated Movie';
-	break;	
-	case 121:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=mwzExNYs12Y');
-	info2.innerHTML = 'Amazing Science Toys/Gadgets (4)';
-	break;	
-	case 122:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=xYe4-7I5ot0');
-	info2.innerHTML = 'Amazing Optical Illusions';
-	break;	
-	case 123:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=LtoBzOMwlRQ');
-	info2.innerHTML = 'Amazing Science Toys/Gadgets/Inventions (9)';
-	break;		
-	case 124:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=5Rqj6rfbMIY');
-	info2.innerHTML = 'Top Gear – Chris Harris Drives The 400bhp Lotus Emira';
-	break;	
-	case 125:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Bcz39w07WIA');
-	info2.innerHTML = 'Colored Epoxy Resin Table';
-	break;	
-	case 126:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=enpkJE-7Dkc');
-	info2.innerHTML = 'How To Grow Coral';
-	break;	
-	case 127:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=T5DuYSXRqGc');
-	info2.innerHTML = '3857 W 31st Ave, Vancouver, BC - Bryan Velve';
-	break;	
-	case 128:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=sKT80lPjQ8Y');
-	info2.innerHTML = 'Dream Home Music Studio';
-	break;	
-	case 129:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ToUmmVvqKHo');
-	info2.innerHTML = '40 Creative Photography Ideas';
-	break;	
-	case 130:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=PW8tr4j1ZWE');
-	info2.innerHTML = 'Beginner Photography Mistakes';
-	break;	
-	case 131:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=TgqeRTwZvIo');
-	info2.innerHTML = 'What Is UI vs. UX Design?';
-	break;	
-	case 132:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=1PnVor36_40');
-	info2.innerHTML = 'CSS Tutorial';
-	break;	
-	case 133:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=y17RuWkWdn8');
-	info2.innerHTML = 'DOM Manipulation Tutorial';
-	break;	
-	case 134:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=libKVRa01L8');
-	info2.innerHTML = 'Solar System 101 Video';
-	break;	
-	case 135:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=epZdZaEQhS0');
-	info2.innerHTML = 'Saturn 101 Video';
-	break;	
-	case 136:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Ddq8YLwcscA');
-	info2.innerHTML = 'The First American Lighthouse';
-	break;	
-	case 137:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=fb9npsayAjg');
-	info2.innerHTML = 'Building Good Habits';
-	break;	
-	case 138:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=PL2j9MbvgH8');
-	info2.innerHTML = 'Ford vs. Ferrari';
-	break;	
-	case 139:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=XGA2LAb25hs');
-	info2.innerHTML = 'Airbnb\'s Most Requested Listing Ever';
-	break;		
-	case 140:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Boi0XEm9-4E');
-	info2.innerHTML = 'Utrecht Planning';
-	break;	
-	case 141:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=gj6frb_mHzQ');
-	info2.innerHTML = 'Aquarius Undersea Laboratory Tour';
-	break;	
-	case 142:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=dcxyE0WboFI');
-	info2.innerHTML = 'Paris Metro Video Guide';
-	break;	
-	case 143:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=qtPi0JvmWbs');
-	info2.innerHTML = 'Generative Art';
-	break;	
-	case 144:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=otoP8puJzKY');
-	info2.innerHTML = 'Wicker Pavilion';
-	break;	
-	case 145:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=lWAhwGpRl58');
-	info2.innerHTML = 'Introduction To Spanish In 30 Minutes';
-	break;	
-	case 146:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=UE661QWlBtE');
-	info2.innerHTML = 'Constructing Floating Homes';
-	break;	
-	case 147:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Ax8fNpglBSY');
-	info2.innerHTML = 'Small Bedroom Makeover';
-	break;	
-	case 148:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=GybxfjrVro4');
-	info2.innerHTML = 'Pinterest Inspired Kitchen';
-	break;	
-	case 149:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Av07QiqmsoA');
-	info2.innerHTML = 'Lemonade Machine';
-	break;	
-	case 150:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=sBoVGqiSzr4');
-	info2.innerHTML = 'Calligraphy & Hand Lettering Tutorial';
-	break;	
-	case 151:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=6RkWqu3aHHI');
-	info2.innerHTML = 'How Was It Made? Micromosaics';
-	break;	
-	case 152:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=73D0AwDuzZ0');
-	info2.innerHTML = 'Brussels Train World';
-	break;	
-	case 153:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=q9ZI6N86b50');
-	info2.innerHTML = 'Expo 67. The Canadian Pavilion';
-	break;	
-	case 154:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=RFcGvmFtR-s');
-	info2.innerHTML = 'Rise Lantern Festival';
-	break;	
-	case 155:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=T8fzAtwtGuM');
-	info2.innerHTML = 'Warsaw Jazz It Flash Mob';
-	break;		
-	case 156:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=d77p2Cg1q1Y');
-	info2.innerHTML = 'NYC Subway Saxophone Band';
-	break;	
-	case 157:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=jY9kIpaC3uw&t=0s');
-	info2.innerHTML = 'Thomas Kruger & Brendan Kavanagh. Fast Boogie Woogie';
-	break;	
-	case 158:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=5apLdW0lL08');
-	info2.innerHTML = 'Frisco Percussion';
-	break;	
-	case 159:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=9TjUWnAK0cg');
-	info2.innerHTML = 'Easier Pan Pizza';
-	break;	
-	case 160:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Blb9la-SE1k');
-	info2.innerHTML = 'Easy Chocolate Lace Lollipops';
-	break;	
-	case 161:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=o-FyH2A7Ed0');
-	info2.innerHTML = 'IBM Quantum Sounds';
-	break;	
-	case 162:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=0qo78R_yYFA');
-	info2.innerHTML = 'SpaceX Interplanetary Transport System';
-	break;	
-	case 163:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=TZ0HsN-tblo');
-	info2.innerHTML = 'Model S Touchscreen Display';
-	break;	
-	case 164:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Q3ur8wzzhBU');
-	info2.innerHTML = 'Internet Of Things';
-	break;	
-	case 165:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=SL_E2q3RSLE');
-	info2.innerHTML = 'M8 Convertible';
-	break;	
-	case 166:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=oInBvtQASqw');
-	info2.innerHTML = 'ACG Presents : The Search';
-	break;	
-	case 167:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ktqOPSeybNo');
-	info2.innerHTML = 'ACG Presents : An Impractical Camping Guide';
-	break;	
-	case 168:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=a_4hVIWaa_8');
-	info2.innerHTML = 'Elevators : Raising The Roof Since 1854';
-	break;	
-	case 169:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=HGtMta8vpbg');
-	info2.innerHTML = 'Before And After. Buildings Reinvented';
-	break;	
-	case 170:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=D-4-8IcoZBk');
-	info2.innerHTML = 'Pavillion Le Corbusier';
-	break;	
-	case 171:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=hr9KR6t_mEM');
-	info2.innerHTML = 'Barcelona Pavilion';
-	break;		
-	case 172:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=UO3N_PRIgX0');
-	info2.innerHTML = 'The Magic Of Making Sound';
-	break;	
-	case 173:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=3SwX8ANq7Ls');
-	info2.innerHTML = 'The California Roll';
-	break;	
-	case 174:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=YThelfB2fvg');
-	info2.innerHTML = 'Mouse Cursor History';
-	break;	
-	case 175:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ww12lImOJ38');
-	info2.innerHTML = 'Image File Formats';
-	break;	
-	case 176:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=2LOkI3Xyd_E');
-	info2.innerHTML = 'Is Your Internet Fast Enough?';
-	break;	
-	case 177:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=oQ0mp4wLBMg');
-	info2.innerHTML = '7 Ways To Increase Intelligence';
-	break;	
-	case 178:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=rdlXC2WEJcc');
-	info2.innerHTML = '7 Nice Conversation Starters';
-	break;	
-	case 179:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=YeI6Wqn4I78');
-	info2.innerHTML = 'Color Theory Basics';
-	break;	
-	case 180:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=10N_PbBMfn0');
-	info2.innerHTML = 'Full Room Design';
-	break;	
-	case 181:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=FWZp3dho3i4');
-	info2.innerHTML = 'Interior Photography Shooting';
-	break;	
-	case 182:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=a4N4yQB_B4c');
-	info2.innerHTML = 'Where Two Oceans Meet';
-	break;	
-	case 183:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=o1zNIm8GVPY');
-	info2.innerHTML = 'I\'m Not A Robot';
-	break;	
-	case 184:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=n2ut_ylP8Gk');
-	info2.innerHTML = 'Adobe XD Interactive Menu';
-	break;	
-	case 185:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=zleBGbwZjqU');
-	info2.innerHTML = 'Color An Illustration In Photoshop';
-	break;	
-	case 186:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=9dKhClrYMQc');
-	info2.innerHTML = 'Satisfying Chateau Restorations';
-	break;	
-	case 187:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=6m85MPciuyw');
-	info2.innerHTML = 'Ingenious Floating Homes';
-	break;		
-	case 188:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ZiRYewGkl-E');
-	info2.innerHTML = 'DIY Platform Bed';
-	break;	
-	case 189:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=330YCLMDaRg');
-	info2.innerHTML = 'Documentary – Nordic Service Design';
-	break;	
-	case 190:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=GwsKPtngklM');
-	info2.innerHTML = 'Universiy of Helsinki Vlog';
-	break;	
-	case 191:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=HFd2lVfrwL8');
-	info2.innerHTML = 'Dayglow – Deep End';
-	break;	
-	case 192:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ArBD_VHIY8Q');
-	info2.innerHTML = 'Dayglow – Stops Making Sense';
-	break;	
-	case 193:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=O7S21zudhtY');
-	info2.innerHTML = 'Zedd feat. Ryan Tedder – Lost At Sea';
-	break;	
-	case 194:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=9bX97Hgb6IY');
-	info2.innerHTML = 'Ed Sheeran – The City';
-	break;	
-	case 195:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=-8YV5xhENt8');
-	info2.innerHTML = 'Dua Lipa – Homesick';
-	break;	
-	case 196:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=m7Bc3pLyij0');
-	info2.innerHTML = 'Marshmello ft. Bastille – Happier';
-	break;	
-	case 197:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=kiDlwknFOrI');
-	info2.innerHTML = 'Surfaces – Shine On Top';
-	break;	
-	case 198:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=oJH1Cdw-Plw');
-	info2.innerHTML = 'Surfaces – Take It Easy';
-	break;	
-	case 199:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=uSNHveS_GZw');
-	info2.innerHTML = 'VINAI - On N On (feat. Leony)';
-	break;	
-	case 200:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=JA2TPK0NeFI');
-	info2.innerHTML = 'Italobrothers – Stamp On The Ground';
-	break;	
-	case 201:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=Y4QGPWLY-EM');
-	info2.innerHTML = 'Eiffel 65 – Blue';
-	break;	
-	case 202:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=to5Sg2KeEnU');
-	info2.innerHTML = 'Maroon 5 – Sunday Morning';
-	break;	
-	case 203:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=iSEkI3Urmd4');
-	info2.innerHTML = 'Harry Potter Homecoming Assembly';
-	break;		
-	case 204:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=B7xai5u_tnk');
-	info2.innerHTML = 'TheFatRat – Monody (feat. Laura Brehm)';
-	break;	
-	case 205:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=krcaX7RL0OI');
-	info2.innerHTML = 'Lastep – Come To Life';
-	break;	
-	case 206:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=YJ5fRzTJvS4');
-	info2.innerHTML = 'Lemonade Mouth – Somebody';
-	break;	
-	case 207:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=tBU-F_lSTac');
-	info2.innerHTML = 'Calvin Harris – Neon Rocks';
-	break;	
-	case 208:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=jofNR_WkoCE');
-	info2.innerHTML = 'Ylvis – The Fox (What Does The Fox Say?)';
-	break;	
-	case 209:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=mk48xRzuNvA');
-	info2.innerHTML = 'The Script – Hall Of Fame';
-	break;	
-	case 210:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=qP-7GNoDJ5c');
-	info2.innerHTML = 'Nathan Evans – Wellerman';
-	break;	
-	case 211:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=0dcbw4IEY5w');
-	info2.innerHTML = 'ABBA – Thank You For The Music';
-	break;	
-	case 212:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=dDI7x1nwTUw');
-	info2.innerHTML = 'ABBA – Eagle';
-	break;	
-	case 213:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=TbksX8Pnw_c');
-	info2.innerHTML = 'Herreys – Diggi-Loo, Diggi-Ley (English Version)';
-	break;	
-	case 214:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=B2z7Iy2NCgQ');
-	info2.innerHTML = 'Perry Como – The Colors Of My Life';
-	break;	
-	case 215:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=VCYQ8V1kHUc');
-	info2.innerHTML = 'Magnus Bokn – Over The Sea';
-	break;	
-	case 216:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=ra68T96ONNU');
-	info2.innerHTML = '4 Strings – Forever Young';
-	break;	
-	case 217:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=9fbxTFevdAE');
-	info2.innerHTML = 'Aloe Blacc – Green Lights';
-	break;	
-	case 218:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=pIkK4uYLP9A');
-	info2.innerHTML = 'Janji – Shine';
-	break;	
-	case 219:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=bIfGCnbFuF8');
-	info2.innerHTML = 'Obie Hans – Opaque Silhouettes';
-	break;		
-	case 220:
-	go.setAttribute('href', 'https://www.youtube.com/watch?v=pAWFbaY1hUA');
-	info2.innerHTML = 'Obie Hans – Midnight Motif';
-	break;	
-	}
+	let num = chooseRandomNumber();
+	go.href = vortexData[num]["Link"];
+	info2.innerHTML = vortexData[num]["Name"];
 });
