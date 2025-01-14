@@ -1,13 +1,6 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 body {
 	margin : 0;
 	background : black;
-    display: grid;
-    grid-template-rows: auto auto; 	
 }
 
 header {
@@ -122,6 +115,16 @@ header {
 }
 
 @media (max-width : 600px) {
+	html, body {
+		height: 100%;
+		margin: 0;
+	}
+
+	body {
+		display: grid;
+		grid-template-rows: auto auto; 	
+	}
+	
 	#upper {
 		width : 100%;
 	}
