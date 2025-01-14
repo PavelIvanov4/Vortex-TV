@@ -129,6 +129,10 @@ header {
 		width : 100%;
 	}
 	
+	#logo-span {
+		display : none;
+	}
+	
 	#generator {
 		border-radius : 0;
 		width : 100%;
