@@ -1,6 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
 	margin : 0;
 	background : black;
+    display: grid;
+    grid-template-rows: auto auto; 	
 }
 
 header {
@@ -133,31 +140,31 @@ header {
 		border-color : slateGray;
 		border-left : none;
 		border-right : none;
-		border-bottom : none;
+		border-bottom : 1px solid slateGray;
 		box-sizing : border-box;
 	}
 	
 	#details {
-		margin : auto;
-		display : block;
-		width : 72%;
 		font-size : 30px;
-		min-width : 120px;
 		border-color : slateGray;
 	}
 	
 	#randomize, #go {
-		margin-top : 50px;
-		margin-bottom : 20px;
-		margin-left : 0px;
 		font-size : 30px;
-		min-width : 120px;
 		border-color : slateGray;
 	}
 	
+	#randomize, #go, #details {
+		display : block;
+		margin-top : 50px;
+		margin-bottom : 20px;
+		margin-left : 0px;
+		min-width : initial;
+	}
+	
 	#buttons {
-		display : flex;
-		justify-content : space-evenly;
+		display : grid;
+		grid-template-columns : 1fr 1fr 1fr;
 	}
 	
 	#about_text {
@@ -167,5 +174,11 @@ header {
 	#about:hover {
 		background : #202020;
 		color : beige;
+	}
+}
+
+@media (max-width : 380px) {
+	#upper, #about {
+		font-size : 33px;
 	}
 }
