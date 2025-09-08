@@ -184,12 +184,12 @@ const vortexData = [
         "Link": "https://www.youtube.com/watch?v=vI25nMmklwE"
     },
     {
-        "Name": "New DeLoreans are still available, straight from the factory",
-        "Link": "https://www.youtube.com/watch?v=0lrIqGphJx8"
+        "Name": "HEYYEYAAEYAAAEYAEYAA (2021)",
+        "Link": "https://www.youtube.com/watch?v=BJLfeFC3Vc0"
     },
     {
-        "Name": "HDMI, DisplayPort, VGA, and DVI as Fast As Possible",
-        "Link": "https://www.youtube.com/watch?v=f38sotYHqtA"
+        "Name": "Willy Wonka being iconic for 6 minutes straight",
+        "Link": "https://www.youtube.com/watch?v=cE127sNU3uk"
     },
     {
         "Name": "Image File Formats - JPEG, GIF, PNG",
@@ -284,16 +284,16 @@ const vortexData = [
         "Link": "https://www.youtube.com/watch?v=tIn3JSD0a9w"
     },
     {
-        "Name": "Van Gogh on Dark Water",
-        "Link": "https://www.youtube.com/watch?v=4dKy7HNU4vk"
+        "Name": "Reddit\'s r/Place: The Ultimate Showdown of Ultimate Destiny",
+        "Link": "https://www.youtube.com/watch?v=c8bp950PHZE"
     },
     {
         "Name": "This Artist Makes Incredible Sculptures Out of Fabric",
         "Link": "https://www.youtube.com/watch?v=fLLOlB2WF_Y"
     },
     {
-        "Name": "Illuminating hyperbolic geometry",
-        "Link": "https://www.youtube.com/watch?v=eGEQ_UuQtYs"
+        "Name": "10 Chess Tips Every Beginner Should Know",
+        "Link": "https://www.youtube.com/watch?v=aavP_NnrXS8"
     },
     {
         "Name": "Miniature Railway (1959)",
@@ -1248,3 +1248,4 @@ randomize.addEventListener('click', () => {
 	go.href = vortexData[num]["Link"];
 	info2.innerHTML = vortexData[num]["Name"];
 });
+
